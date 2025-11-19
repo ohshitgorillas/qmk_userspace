@@ -24,6 +24,7 @@ anywya -> anyway
 :asthe: -> as the
 asiude -> aside
 :atthe -> at the
+:atth:e: -> at the
 basleine -> baseline
 bsaeline -> baseline
 baselein -> baseline
@@ -39,6 +40,10 @@ bvefore -> before
 begn: -> begin
 bteter -> better
 btween -> between
+:byt:he: -> by the
+:byth:e: -> by the
+:b:ythe: -> by the
+:bythe: -> by the
 :cna: -> can
 :canm: -> can
 cazn't -> can't
@@ -146,6 +151,8 @@ libarry -> library
 :liek: -> like
 luike -> like
 :lik:e -> like
+lienar -> linear
+lionear -> linear
 lluy: -> lly
 loasd -> loads
 :amde -> made
@@ -157,6 +164,10 @@ measn -> means
 mesaure -> measure
 emnts: -> ments
 mign: -> ming
+mroe: -> more
+moer: -> more
+omre: -> more
+mcuh -> much
 myuch -> much
 muych -> much
 nt': -> n't
@@ -182,6 +193,9 @@ outt:here -> out there
 aprse -> parse
 perfvect -> perfect
 piong: -> ping
+:pont: -> point
+piont -> point
+poitn -> point
 possbile -> possible
 proejct -> project
 projkect -> project
@@ -209,10 +223,13 @@ stnad -> stand
 stadn -> stand
 sruviv -> surviv
 :atp: -> tap
-:tersm -> terms
+tersm -> tems
 terriuble -> terrible
 :tahn: -> than
+:thna: -> than
 thansk -> thanks
+tahnks -> thanks
+thnaks -> thanks
 :taht -> that
 :thta: -> that
 :thyat: -> that
@@ -223,9 +240,13 @@ thge -> the
 :teh: -> the
 :thje: -> the
 :thne: -> the
+:t:he: -> the
+:th:e: -> the
 :thier: -> their
 thjen -> then
+:tehn: -> then
 thsee -> these
+tehse -> these
 thinmg -> thing
 thimng -> thing
 thiung -> thing
@@ -288,6 +309,7 @@ worsd -> words
 :wrok: -> work
 :eyar -> year
 :yera: -> year
+:youi: -> you
 your'e -> you're
 :yopur: -> your
 :yuor: -> your
