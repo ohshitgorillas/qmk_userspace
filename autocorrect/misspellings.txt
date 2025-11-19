@@ -1,5 +1,14 @@
 # things I personally struggle with misspelling
 carribean -> Caribbean
-fourty -> forty
+cemetary -> cemetery
 dispensible -> dispensable
+forseeable -> foreseeable
+fourties -> forties
+fourty -> forty
+idiosyncrac -> idiosyncras
+liquify -> liquefy
+millenium -> millennium
+miniscule -> minuscule
+sacreligious -> sacrilegious
+superced -> supersed
 

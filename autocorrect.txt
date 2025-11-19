@@ -1,7 +1,16 @@
 # things I personally struggle with misspelling
 carribean -> Caribbean
-fourty -> forty
+cemetary -> cemetery
 dispensible -> dispensable
+forseeable -> foreseeable
+fourties -> forties
+fourty -> forty
+idiosyncrac -> idiosyncras
+liquify -> liquefy
+millenium -> millennium
+miniscule -> minuscule
+sacreligious -> sacrilegious
+superced -> supersed
 
 # personal stuff - most people won't get much use out of 
 uthhe -> (U-Th)/He
@@ -80,6 +89,8 @@ analyhsis -> analysis
 anyopne -> anyone
 aynway -> anyway
 anywya -> anyway
+:paart: -> apart
+:aaprt: -> apart
 :arbound -> around
 :asthe: -> as the
 asiude -> aside
@@ -132,6 +143,8 @@ enmgine -> engine
 :enitre: -> entire
 enoguh -> enough
 :ect: -> etc
+evebn -> even
+:eevn -> even
 exatcly -> exactly
 exaclty -> exactly
 exacgtly -> exactly
@@ -238,12 +251,14 @@ oprder -> order
 ohter -> other
 outt:here -> out there
 aprse -> parse
+perfvect -> perfect
 piong: -> ping
 possbile -> possible
 proejct -> project
 projkect -> project
 pythoin -> python
 quikc -> quick
+:relaly -> really
 :erally -> really
 reqiure -> require
 rigth -> right
@@ -267,6 +282,7 @@ sruviv -> surviv
 :atp: -> tap
 :tersm -> terms
 terriuble -> terrible
+:tahn: -> than
 thansk -> thanks
 :taht -> that
 :thta: -> that
@@ -277,6 +293,7 @@ thge -> the
 :hte: -> the
 :teh: -> the
 :thje: -> the
+:thne: -> the
 :thier: -> their
 thjen -> then
 thsee -> these
