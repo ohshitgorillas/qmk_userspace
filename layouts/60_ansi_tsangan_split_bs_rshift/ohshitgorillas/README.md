@@ -9,8 +9,7 @@ It's used for two of my four keyboards:
 ### Luminkey LX60 Copper Edition
 ![Luminkey LX60 Copper Edition](lx60.png)
 
-- **Color**: Anodized green
-- **Accent Bar**: Copper
+- **Color**: Anodized green w/ copper accent bar
 - **Keycaps**: CannonKeys British Racing Green
 - **Artisan**: Gary Green Jasper by KeycapQuarry
 - **Switches**: Invokeys Matcha Reserve
