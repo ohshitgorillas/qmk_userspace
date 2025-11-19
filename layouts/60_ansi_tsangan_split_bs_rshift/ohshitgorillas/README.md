@@ -62,7 +62,7 @@ The use of the Caps Lock key here provides ergonomic and extremely fast access t
 
 
 ### Left-Handed Features
-The most valuable aspect of the CLL is bringing essential modifiers and navigation keys—Backspace, Enter, and Delete—within comfortable reach of the left hand, eliminating the need for awkward right-hand stretches.
+The most valuable aspect of the CLL is bringing essential functions—Backspace, Enter, and Delete—within comfortable reach of the left hand, eliminating the need for awkward right-hand stretches.
 
 Consider deleting the previous word with a traditional keyboard layout:
 - Stretch your left hand down to the bottom corner for Ctrl or Opt
@@ -103,7 +103,6 @@ First, we need to enable these features in `config.h`:
 #define TAPPING_TERM_PER_KEY
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 #define RETRO_TAPPING_PER_KEY
-#define TAP_HOLD_CAPS_DELAY 200  // suggested for macOS
 ```
 
 Next, in `keymap.c`, we need to define the per-key features:
@@ -147,6 +146,47 @@ Lastly, we need to disable `CHORDAL_HOLD` for the Caps Lock key, otherwise this 
 ```
 
 That's it! Now your Caps Lock key functions perfectly both on tap and extremely fast holds.
+
+### Leader Sequences: Go to...
+The following leader key sequences open or bring focus to the following apps:
+
+- Q: WeChat
+- W: WhatsApp
+- T: Microsoft Teams
+- A: Safari (for Android messaging over the web)
+- S: Signal
+- D: Discord
+- F: Finder
+- Z: Outlook
+- X: Terminal
+- C: Cursor
+- B: Browser
+- N: Calculator
+- M: HQPlayer Client (music)
+
+### Leader Sequences: Personal Information
+The following leader key sequences print my personal information:
+
+- P, E, M: personal email
+- P, P, H: personal phone number
+- W, E, M: work email
+- W, P, H: work phone number
+- A, D, D, R: my street address
+- O, S, G: my DDNS address
+
+### Leader Sequences: xcase
+The following leader sequences activate xcase, which replaces spaces with a given delimiter (see https://github.com/ohshitgorillas/qmk-xcase).
+
+- C, C: camelCase
+- S, C: snake_case
+- K, C: kebab-case
+- X, C, any: uses the third character entered as a dynamic delimiter; e.g., "X, C, /" replaces/spaces/with/slashes
+
+### SpongeMock Mode
+The keyboard contains a QMK module called SpongeMock, which randOMlY CaPitaliZEs leTtERs to MimiC tHE sPONGEBob MOckING mEme. This is accessed via the Leader sequence S, M.
+
+### Autocorrect Mode
+The keyboard contains a custom autocorrect dictionary and autocorrect mode that can be toggled via the leader sequence A, C.
 
 
 ## HHKB-style Layer
