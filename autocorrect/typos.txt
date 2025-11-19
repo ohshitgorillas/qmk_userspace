@@ -124,6 +124,7 @@ inmto -> into
 keyborad -> keyboard
 keybard -> keyboard
 keyboarsd -> keyboards
+keybvoard -> keyboard
 kjeys -> keys
 knjee -> knee
 :knwo -> know
