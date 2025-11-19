@@ -1,3 +1,21 @@
 [submodule "modules/ohshitgorillas"]
 	path = modules/ohshitgorillas
 	url = https://github.com/ohshitgorillas/qmk_modules.git
+[submodule "modules/tzarc"]
+	path = modules/tzarc
+	url = https://github.com/tzarc/qmk_modules.git
+[submodule "modules/getreuer"]
+	path = modules/getreuer
+	url = https://github.com/getreuer/qmk-modules.git
+[submodule "modules/modules/drashna"]
+	path = modules/modules/drashna
+	url = https://github.com/drashna/qmk_modules.git
+[submodule "modules/modules/dave-thompson"]
+	path = modules/modules/dave-thompson
+	url = https://github.com/dave-thompson/qmk-modules.git
+[submodule "modules/dave-thompson"]
+	path = modules/dave-thompson
+	url = https://github.com/dave-thompson/qmk-modules.git
+[submodule "modules/elpekenin"]
+	path = modules/elpekenin
+	url = https://github.com/elpekenin/qmk_modules.git
