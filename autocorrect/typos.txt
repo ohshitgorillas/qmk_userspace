@@ -11,6 +11,7 @@ analyhsis -> analysis
 :adn: -> and
 :abd: -> and
 :abnd: -> and
+:andn: -> and
 :andone -> and one
 :andteh -> and the
 :andthe -> and the
@@ -30,7 +31,9 @@ bsaically -> basically
 basiclaly -> basically
 becasue -> because
 befroe -> before
+beofre -> before
 :bfore -> before
+bvefore -> before
 begn: -> begin
 bteter -> better
 btween -> between
@@ -64,6 +67,7 @@ iether -> either
 :eamil: -> email
 engiune -> engine
 enmgine -> engine
+:enitre: -> entire
 enoguh -> enough
 :ect: -> etc
 exatcly -> exactly
@@ -187,6 +191,7 @@ sekf: -> self
 shfit -> shift
 shuold -> should
 simpel -> simple
+:sof:ar -> so far
 someonme -> someone
 soemthing -> something
 sonud -> sound
@@ -227,6 +232,7 @@ thjis -> this
 :thsi -> this
 :thios: -> this
 :thisis: -> this is
+thopught -> thought
 :htose -> those
 :tiem: -> time
 toin: -> tion
@@ -249,6 +255,7 @@ toinght -> tonight
 ugth: -> ught
 unbder -> under
 :usign: -> using
+siong: -> sing
 :uo: -> up
 :udpat -> updat
 :wsant -> want

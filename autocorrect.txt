@@ -3,7 +3,7 @@ carribean -> Caribbean
 fourty -> forty
 dispensible -> dispensable
 
-# personal stuff - most people won't get much use out of
+# personal stuff - most people won't get much use out of 
 uthhe -> (U-Th)/He
 :acrn: -> Alphachron
 thermocrhon -> thermochron
@@ -73,6 +73,7 @@ analyhsis -> analysis
 :adn: -> and
 :abd: -> and
 :abnd: -> and
+:andn: -> and
 :andone -> and one
 :andteh -> and the
 :andthe -> and the
@@ -92,7 +93,9 @@ bsaically -> basically
 basiclaly -> basically
 becasue -> because
 befroe -> before
+beofre -> before
 :bfore -> before
+bvefore -> before
 begn: -> begin
 bteter -> better
 btween -> between
@@ -103,6 +106,7 @@ cazn't -> can't
 cuase -> cause
 :certian -> certain
 chanp -> champ
+cahnge -> change
 hceap -> cheap
 :clera -> clear
 cofnig -> config
@@ -125,6 +129,7 @@ iether -> either
 :eamil: -> email
 engiune -> engine
 enmgine -> engine
+:enitre: -> entire
 enoguh -> enough
 :ect: -> etc
 exatcly -> exactly
@@ -136,6 +141,7 @@ examole -> example
 figth -> fight
 :ifnd: -> find
 finmd -> find
+flexbil -> flexibl
 fingedr -> finger
 forfgot -> forgot
 forgfot -> forgot
@@ -247,6 +253,7 @@ sekf: -> self
 shfit -> shift
 shuold -> should
 simpel -> simple
+:sof:ar -> so far
 someonme -> someone
 soemthing -> something
 sonud -> sound
@@ -265,6 +272,7 @@ thansk -> thanks
 :thta: -> that
 :thyat: -> that
 :tghat: -> that
+:thats': -> that's
 thge -> the
 :hte: -> the
 :teh: -> the
@@ -286,6 +294,7 @@ thjis -> this
 :thsi -> this
 :thios: -> this
 :thisis: -> this is
+thopught -> thought
 :htose -> those
 :tiem: -> time
 toin: -> tion
@@ -308,6 +317,7 @@ toinght -> tonight
 ugth: -> ught
 unbder -> under
 :usign: -> using
+siong: -> sing
 :uo: -> up
 :udpat -> updat
 :wsant -> want
