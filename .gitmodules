@@ -1,0 +1,3 @@
+[submodule "modules/ohshitgorillas"]
+	path = modules/ohshitgorillas
+	url = https://github.com/ohshitgorillas/qmk_modules.git
