@@ -22,14 +22,6 @@ The ergonomic advantage cannot be overstated: instead of reaching up to the top-
 Beyond basic error correction, these thumb keys offer enhanced functionality when combined with the Raise layer. Holding Raise while pressing backspace or delete escalates the operation to word-level deletion—backspace becomes "delete previous word" and delete becomes "delete next word". This provides efficient text editing capabilities without leaving the home row or requiring complex key combinations.
 
 
-### Auto-Correction
-I use the QMK Autocorrect feature heavily with a custom library that I fill out as I make typos. This can be found [here](../../../../../autocorrect). 
-
-While there are several libraries out there for this kind of thing, most of them are focused on misspellings. I know how to spell, I just want to have my keyboard autocorrect *typos*.
-
-In the future, the autocorrect.txt file will be split into several files and concatenated before generating `autocorrect_data.h`. 
-
-
 ### Tap-Hold Keys: Home Row Mods (HRMs) and Shift/Enter (SENT)
 This layout uses two tap-hold configurations:
 - **Shift/Enter (SENT)**: Hold for Shift, tap for Enter
@@ -91,7 +83,7 @@ The following leader key sequences print my personal information:
 - O, S, G: my DDNS address
 
 ### Leader Sequences: xcase
-The following leader sequences activate xcase, which replaces spaces with a given delimiter (see https://github.com/ohshitgorillas/qmk-xcase).
+The following leader sequences activate [xcase](../../../modules/ohshitgorillas/xcase), which replaces spaces with a given delimiter.
 
 - C, C: camelCase
 - S, C: snake_case
@@ -102,7 +94,11 @@ The following leader sequences activate xcase, which replaces spaces with a give
 The keyboard contains a QMK module called SpongeMock, which randOMlY CaPitaliZEs leTtERs to MimiC tHE sPONGEBob MOckING mEme. This is accessed via the Leader sequence S, M.
 
 ### Autocorrect Mode
-The keyboard contains a custom autocorrect dictionary and autocorrect mode that can be toggled via the leader sequence A, C.
+The keyboard contains a custom autocorrect dictionary and mode which can be toggled via the leader sequence A, C.
+
+I use this feature heavily with a custom library that I fill out as I make typos. This library can be found [here](../../../autocorrect).
+
+While there are several exiting libraries out there for this kind of thing, most of them are focused on misspellings. I know how to spell, I just want to have my keyboard autocorrect *typos*.
 
 
 ## Lower: Numbers and Symbols
