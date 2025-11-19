@@ -3,6 +3,7 @@
 activbate -> activate
 :atcually -> actually
 :agian -> again
+:laso: -> also
 anaylsis -> analysis
 analyhsis -> analysis
 :annd: -> and
@@ -25,6 +26,7 @@ anywya -> anyway
 asiude -> aside
 :atthe -> at the
 :atth:e: -> at the
+bakc -> back
 basleine -> baseline
 bsaeline -> baseline
 baselein -> baseline
@@ -39,6 +41,7 @@ beofre -> before
 bvefore -> before
 begn: -> begin
 bteter -> better
+bgetter -> better
 btween -> between
 :byt:he: -> by the
 :byth:e: -> by the
@@ -54,6 +57,7 @@ chanp -> champ
 cahnge -> change
 hceap -> cheap
 :clera -> clear
+compesnate -> compensate
 cofnig -> config
 conquwer -> conquer
 cosnider -> consider
@@ -67,7 +71,7 @@ odesn't -> doesn't
 :dwon: -> down
 :eigth -> eight
 eitehr -> either
-iether -> either
+iether: -> either
 :eiter -> either
 :esle -> else
 :eles -> else
@@ -107,6 +111,7 @@ hjave -> have
 :hve: -> have
 havbe -> have
 :ahve -> have
+havfe -> have
 havnig -> having
 hedaphones -> headphones
 headpohnes -> headphones
@@ -155,6 +160,7 @@ lienar -> linear
 lionear -> linear
 lluy: -> lly
 loasd -> loads
+:lvoe -> love
 :amde -> made
 :amke: -> make
 :maek -> make
@@ -164,6 +170,8 @@ measn -> means
 mesaure -> measure
 emnts: -> ments
 mign: -> ming
+moduel -> module
+:monr -> morn
 mroe: -> more
 moer: -> more
 omre: -> more
@@ -247,6 +255,7 @@ thjen -> then
 :tehn: -> then
 thsee -> these
 tehse -> these
+:tehy: -> they
 thinmg -> thing
 thimng -> thing
 thiung -> thing
@@ -256,6 +265,7 @@ htink -> think
 thiunk -> think
 tghink -> think
 :thrid: -> third
+:t:his: -> this
 thjis -> this
 :thius -> this
 :thsi -> this
@@ -294,6 +304,8 @@ wanst -> wants
 whjat -> what
 :whta: -> what
 whenver -> whenever
+whgere -> where
+wghere -> where
 whetehr -> whether
 wehther -> whether
 hwich -> which
@@ -302,6 +314,7 @@ wign: -> wing
 :wiht -> with
 :iwth -> with
 witgh -> with
+wigth -> with
 witht:he -> with the
 wit:hthe -> with the
 withoupt -> without
@@ -309,6 +322,7 @@ worsd -> words
 :wrok: -> work
 :eyar -> year
 :yera: -> year
+yign: -> ying
 :youi: -> you
 your'e -> you're
 :yopur: -> your
