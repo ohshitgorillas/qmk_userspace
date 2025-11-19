@@ -1,6 +1,6 @@
 # ohshitgorillas' 60% Layout
 
-This is the page for my custom 60% layout code.
+This README provides a deep dive into my custom 60% layout, covering the hardware, design philosophy, and advanced QMK features that I think make it great.
 
 It's used for two of my four keyboards:
 - Luminkey LX60
@@ -62,7 +62,7 @@ The use of the Caps Lock key here provides ergonomic and extremely fast access t
 
 
 ### Left-Handed Features
-The most valuable aspect of the CLL is bringing essential functions—Backspace, Enter, and Delete—within comfortable reach of the left hand, eliminating the need for awkward right-hand stretches.
+The CLL's primary benefit is bringing essential functions—Backspace, Enter, and Delete—within comfortable reach of the left hand. This eliminates awkward right-hand stretches and minimizes hand movement.
 
 Consider deleting the previous word with a traditional keyboard layout:
 - Stretch your left hand down to the bottom corner for Ctrl or Opt
@@ -75,7 +75,7 @@ Compare this to the streamlined CLL approach:
 This method is not only faster and more comfortable, but also keeps your hands in their natural positions, dramatically reducing strain during extended typing sessions.
 
 ### The Taming of Caps Lock as a Dual-Use Key
-On the surface, there are two conflicting timing requirements at work here:
+Using Caps Lock as a fast layer-tap key while preserving its standard tap behavior presents a significant technical challenge:
 - On macOS, the operating system prevents Caps Lock from being toggled with hold times under 200ms.
 - Due to its ideal position on the home row, the CLL's Backspace and Delete functions can be accessed at extreme speeds, often under 50ms, demanding an extremely short tapping term and aggressive tap-hold rules.
 
@@ -96,6 +96,7 @@ It is possible to accommodate both HRMs and CLL on the same keyboard, and to 'ta
 - `HOLD_ON_OTHER_KEYPRESS`: This instructs QMK that if we're pressing another key at the same time as a tap-hold key, to interpret the keypress as a hold regardless of the tapping term.
 - `RETRO_TAPPING`: This tells QMK that if we haven't pressed any other keys by the time we release the tap-hold key, to interpret the keypress as a tap regardless of the tapping term.
 
+#### Step 1: Enable Features in `config.h`
 First, we need to enable these features in `config.h`:
 ```c
 #define CHORDAL_HOLD
@@ -105,6 +106,7 @@ First, we need to enable these features in `config.h`:
 #define RETRO_TAPPING_PER_KEY
 ```
 
+#### Step 2: Per-Key Configuration in `keymap.c`
 Next, in `keymap.c`, we need to define the per-key features:
 
 ```c
@@ -139,9 +141,10 @@ bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
 }
 ```
 
+#### Step 3: Disable `CHORDAL_HOLD` in `keyboard.json`
 Lastly, we need to disable `CHORDAL_HOLD` for the Caps Lock key, otherwise this feature could actively hold back same-hand combos like Caps Lock + `d` for Backspace. This is most easily done in `keyboard.json`: go to the first layout in the list (the handedness function only looks at the first layout), find the Caps Lock key's position, and set `hand` to `*`:
 
-```c
+```json
 { "matrix": [2, 0], "x": 0, "y": 2, "w": 1.75, "hand": "*"},
 ```
 
