@@ -112,3 +112,4 @@ This whole experiment was about pushing my boundaries and seeing what was on the
 - **MT3 profile is legit.** It's comfortable as hell and the deep scoops feel amazing. I'm a convert.
 - **ABS keycaps can still fuck off.** Yeah, they shine. PBT for life.
 - **60% is my home.** This experiment solidified it for me. I need my number row and a layout that doesn't make me feel like I'm solving a puzzle every time I need to type a fucking exclamation point. The Planck was a fun, educational, and occasionally infuriating detour, but I'm glad to be back to a real keyboard.
+type 2 fun

@@ -22,7 +22,7 @@ I use a shared layout for my two 60% boards. You can find detailed information a
 
 I also have a Planck for a 40% ortholinear typing experience.
 
-You can find the layout for it [here](keyboards/planck/rev7/keymaps/ohshitgorillas/).
+You can find the layout for it [here](layouts/planck_1x2uR/ohshitgorillas/).
 
 ## Layout Philosophy & Features
 

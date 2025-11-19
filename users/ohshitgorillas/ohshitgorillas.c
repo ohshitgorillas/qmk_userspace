@@ -106,3 +106,17 @@ bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
             return false;
     }
 }
+
+
+// xcase exclusions
+// otherwise xcase is disabled by accessing the
+// caps lock layer to use delete, backspace, etc.
+void add_xcase_exclusions(void) {
+    add_exclusion_keycode(LT(2, KC_CAPS));
+    add_exclusion_keycode(LT(3, KC_CAPS));
+}
+
+
+void keyboard_post_init_user(void) {
+    add_xcase_exclusions();
+}
