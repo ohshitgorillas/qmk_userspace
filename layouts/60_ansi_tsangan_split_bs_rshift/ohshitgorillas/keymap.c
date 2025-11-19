@@ -11,11 +11,12 @@
  * - ANSI Enter
 */
 
-
 #include QMK_KEYBOARD_H
 
 #include "ohshitgorillas.h"
 
+
+// keymap
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
         // macOS main layer
