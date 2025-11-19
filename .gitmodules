@@ -7,12 +7,6 @@
 [submodule "modules/getreuer"]
 	path = modules/getreuer
 	url = https://github.com/getreuer/qmk-modules.git
-[submodule "modules/modules/drashna"]
-	path = modules/modules/drashna
-	url = https://github.com/drashna/qmk_modules.git
-[submodule "modules/modules/dave-thompson"]
-	path = modules/modules/dave-thompson
-	url = https://github.com/dave-thompson/qmk-modules.git
 [submodule "modules/dave-thompson"]
 	path = modules/dave-thompson
 	url = https://github.com/dave-thompson/qmk-modules.git
