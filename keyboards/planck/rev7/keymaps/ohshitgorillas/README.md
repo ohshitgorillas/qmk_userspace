@@ -23,7 +23,7 @@ Beyond basic error correction, these thumb keys offer enhanced functionality whe
 
 
 ### Auto-Correction
-I use the QMK Autocorrect feature heavily with a custom library that I fill out as I make typos. This can be found at [autocorrect.txt](../../../../../autocorrect.txt). 
+I use the QMK Autocorrect feature heavily with a custom library that I fill out as I make typos. This can be found [here](../../../../../autocorrect). 
 
 While there are several libraries out there for this kind of thing, most of them are focused on misspellings. I know how to spell, I just want to have my keyboard autocorrect *typos*.
 
@@ -46,8 +46,9 @@ I prefer "dedicated" Shift keys to avoid this complexity—specifically a dedica
 - Defaults to alpha keys unless clearly intending modifier use
 
 **SENT Configuration**:
-- Disables flow tap, uses 200ms tapping term
+- Disables flow tap, uses 100ms tapping term
 - `HOLD_ON_OTHER_KEYPRESS` for reliable Shift activation
+- `RETRO_TAPPING` for reliable Enter activation
 - Defaults to Shift unless tapped in isolation
 
 ### OS Awareness
