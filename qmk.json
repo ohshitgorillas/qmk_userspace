@@ -1,6 +1,8 @@
 {
     "userspace_version": "1.1",
     "build_targets": [
-        ["planck/rev7", "ohshitgorillas"]
+        ["planck/rev7", "ohshitgorillas"],
+        ["dztech/tofu60", "ohshitgorillas"],
+        ["luminkey/lx60", "ohshitgorillas"]
     ]
 }
