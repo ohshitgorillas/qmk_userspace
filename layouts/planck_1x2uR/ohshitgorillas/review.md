@@ -129,14 +129,14 @@ There's no way to sugarcoat this: learning an ortholinear layout from scratch is
 
 Your muscle memory is actively working against you, turning every word into a battle. The bottom row is by far the worst offender because all of the keys are a half unit off from where your fingers expect them. Every time I went to type a `c`, I'd hit `v` or `x` at the same time. The result was a constant stream of typos like `I really fuxcking sucvk at this`.
 
-Even after three weeks, I was pretty good, but never fully got comfortable. On Monkeytype, with just lowercase words, I clawed my way back to a respectable 110 WPM. But the moment I had to introduce punctuation—and note the lack of dedicated dash or parenthesis keys—you can take another 30 WPM off. Numbers? Cut the speed in half and double the errors. Outside of that, there were endlessly frustrating series of cascading mistakes: *Oops, that's a typo, where's th... oh, fuck, did I just hit tab? Undo that too. Oh my god, did I just escape out? Ok, restore focus and then ba.. NO, NOT FORWARD DELETE, BACKSPACE. FUCK. FUCKING FUCK.*
+Even after three weeks, I was pretty good, but never fully got comfortable. On Monkeytype, with just lowercase words, I clawed my way back to a respectable 110 WPM. But the moment I had to introduce punctuation—and note the lack of dedicated dash or parenthesis keys—you can take another 30 WPM off. Numbers? Cut the speed in half and double the errors. Outside of that, there were endlessly frustrating series of cascading mistakes: *Oops, that's a typo, where's th... oh, fuck, did I just hit tab? Undo that too. Oh my god, did I just escape out? Ok, restore foc... argh... there, focus restored. And now ba.. NO, NOT FORWARD DELETE, BACKSPACE. FUCK. FUCKING FUCK.*
 
 Could I have given it more time and gotten back to full proficiency? Probably. But after three weeks, I felt I'd learned what I needed to and was ready to go back to my 60s.
 
-Those of you who main these kinds of keyboards? Kudos. You have more patience, grit, and skill than I do. My 'internship' was difficult enough; I simply cannot imagine using something like this as a daily driver.
+Those of you who main these kinds of keyboards? Kudos, seriously. You have more patience, grit, and skill than I do. My 'internship' was difficult enough; I simply cannot imagine using something like this as a daily driver.
 
 ### The Constant Mental Overhead is Exhausting
-Beyond the physical clumsiness, the mental load of using the Planck for any real work was exhausting. A standard keyboard is transparent; you don't *think* about where the keys are, you just type. The Planck was the opposite: a constant puzzle I had to solve just to get my thoughts onto the screen.
+Beyond the physical clumsiness, the mental load of using the Planck for any real work was significant. A standard keyboard is transparent; you don't *think* about where the keys are, you just type. The Planck was the opposite: a constant puzzle I had to solve just to get my thoughts onto the screen.
 
 It may sound minor, but the constant cognitive friction of going, "*Okay, there's the dash, tap tap tap, and now there's the open parenthesis, and... no, backspace, now here's the... fuck, that's not it either, THERE's the open parenthesis... tap, tap, tap... now we need an underscore... ope, wrong layer, here's the underscore*" takes its toll. All those little micro-interruptions are murder on your flow state. When you're deep in a coding problem or trying to articulate a complex idea, the last thing you want is to be derailed by figuring out where the fuck you put `F12`.
 
@@ -145,7 +145,7 @@ While, by the end, I was quite fast with a few symbols—being `-, _, !` mostly�
 ### It's Cheap (and That's Okay)
 Let's be clear: the Planck is an entry-level board, and at $99 for the base kit, the price is fair. It wouldn't have made any sense for me to drop $500 on a keyboard intended as an educational detour. I needed a tool for a temporary job, and for that, the Planck was a great choice. It delivered a decent typing experience for my "internship" without breaking the bank.
 
-That being said, coming from a premium board like the LX60 Copper Edition—whose kit cost three times the Planck's—or even the Tofu60 2.0, the difference is stark. These are admittedly unfair comparisons, but it's what I have, and it highlights what you give up at this price point.
+That being said, coming from a premium board like the Luminkey LX60 Copper Edition—whose kit cost three times the Planck's—or even the KBDfans Tofu60 2.0, the difference is stark. These are admittedly unfair comparisons, but it's what I have, and it highlights what you give up at this price point.
 
 The main thing is the feel. I'm used to keyboards that could double as bludgeoning tools. My Tofu60 2.0 is also a budget board, but it's a dense block of aluminum that feels like a serious instrument. The Planck, by contrast, feels like a toy.
 
