@@ -15,7 +15,7 @@ There *are* reasons, but to understand them, we first need to start thinking abo
 ### Fuck Arrow Keys
 That's right, I said it. Go ahead: gasp, boo, hiss, clutch your fucking pearls.
 
-To be clear, this isn't about *not using* arrow keys. Everyone needs them. What you don't need are *dedicated* arrow keys.
+To be clear, this isn't about *not using* arrow keys. Arrow keys are indispensable. What you don't need are *dedicated* arrow keys.
 
 Many of you are sitting in front of a standard full-size or TKL keyboard right now. These are very straightforward: if you want F5, you reach up and press the F5 key; if you want Print Screen, you reach over and press the Print Screen key. If you want the cursor to move up a line, you reach over and press the ↑ key. Easy peasy.
 
@@ -89,13 +89,13 @@ Which leads me into my next point...
 ### QMK Is the Shit
 Vial is good, but getting my hands dirty with QMK was a revelation in what's possible with a simple keyboard. This is the heart of the "dark keyboard arts" I was chasing.
 
-If Vial is a Honda Civic—reliable, practical, gets the job done—then QMK is a stripped-down Formula 1 car: insanely powerful, infinitely customizable, but demanding serious skill to master. If Vial is a high-end Swiss Army knife, QMK is a fully-equipped machine shop where you can forge any tool you need... assuming you know how to operate a lathe.
+If Vial is a moped that gets you around town, then QMK is a stripped-down Formula 1 car: insanely powerful, infinitely customizable, but demanding serious skill to master. If Vial is a Swiss Army knife, QMK is a fully-equipped machine shop where you can forge any tool you need... assuming you know how to operate a lathe.
 
-I was resistant at first, sticking to the QMK Configurator and avoiding the C code. That was a mistake. Once I dove in, I was hooked. The result is my [QMK userspace repository](https://github.com/ohshitgorillas/qmk_userspace), containing all my code, keymaps, and even a few community module contributions.
+I was resistant at first, sticking to the QMK Configurator and avoiding the C code... but that was a mistake. Once I dove in, I was hooked. The result is my [QMK userspace repository](https://github.com/ohshitgorillas/qmk_userspace), containing all my code, keymaps, and even a few community module contributions.
 
 This experience cemented a new rule for me: no more non-QMK keyboards. I was seriously considering a Neo60 Cu until I realized I couldn't load it with QMK. That's a dealbreaker now. Having tasted the raw power of what a keyboard *can* be, I can't go back.
 
-The only downside is that QMK doesn't support wireless, forcing manufacturers to choose. For a business, the decision is simple—wireless sells more boards than QMK support. While I personally am perfectly content to sacrifice wireless functionality to get my hands dirty with C code (I actually *prefer* wired anyway), I am obviously in the minority there. As a one-man business, I can respect many manufacturers' decisions to go with wireless; as an enthusiast, it's frustrating to now be locked out of so much of the market.
+The only downside is that QMK doesn't support wireless, forcing most manufacturers to choose. For a business, the decision is easy—wireless sells more boards than QMK support. While I personally am perfectly content to sacrifice wireless functionality to get my hands dirty with C code (I actually *prefer* wired), I am obviously in the minority there. As a one-man business, I can respect many manufacturers' decisions to go with wireless; as an enthusiast, it's frustrating to now be locked out of so much of the market.
 
 I know the odds are slim, but I hope to see a future where QMK and wireless can finally coexist.
 
@@ -128,12 +128,14 @@ It doesn't sound like much, but the constant cognitive friction of going, "*Okay
 
 It wasn't until I switched back to my 60% that I realized just how much mental energy I was expending. The feeling of just hitting number and symbol keys without a second thought was incredibly freeing.
 
-### It Feels Like a Cheap Toy
-Look, I know this is an entry-level board, but coming from a premium board like the LX60 Copper Edition, the Planck feels... well, it feels like a cheap piece of shit.
+### It's Cheap (and That's Okay)
+Let's be clear: the Planck is an entry-level board, and at $99 for the base kit, the price is fair. It wouldn't have made any sense for me to drop $500 on a keyboard intended as an educational detour. I needed a tool for a temporary job, and for that, the Planck was a great choice. It delivered a decent typing experience for my "internship" without breaking the bank.
 
-It's not just about the case. It's the lack of heft and the hollow sound. I'm used to keyboards that double as bludgeoning tools. My Tofu60 2.0 is a relatively inexpensive board, but it's a dense, solid block of aluminum that feels like a serious tool. The Planck feels like a toy in comparison.
+That being said, coming from a premium board like the LX60 Copper Edition—a board whose kit cost three times the Planck's—or even the Tofu60 2.0, the difference is stark. These are admittedly unfair comparisons, but it's what I have, and it highlights what you give up at this price point.
 
-While its lack of weight is a huge plus for portability, it just feels flimsy and insubstantial on a desk. It slides around, it sounds hollow and pingy even with foams, and it lacks the satisfying presence of a well-built keyboard. For someone who appreciates the tactile and aesthetic side of this hobby, it was a disappointment.
+The main thing is the feel. I'm used to keyboards that could double as bludgeoning tools. My Tofu60 2.0 is also a budget board, but it's a dense block of aluminum that feels like a serious instrument. The Planck, by contrast, feels like a toy.
+
+While its lightness is a huge plus for portability, it feels flimsy and insubstantial at a proper workstation. It slides around and sounds like complete ass without foams (and still not great with). For someone who appreciates the tactile and aesthetic presence of a well-built keyboard, it was a constant, if only mild, disappointment.
 
 ## So, What Did I Learn?
 This whole experiment was about pushing my boundaries and seeing what was on the other side. The Planck was a difficult, frustrating, and ultimately invaluable teacher. Here's what I'm taking with me:
