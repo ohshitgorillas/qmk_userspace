@@ -131,11 +131,11 @@ It wasn't until I switched back to my 60% that I realized just how much mental e
 ### It's Cheap (and That's Okay)
 Let's be clear: the Planck is an entry-level board, and at $99 for the base kit, the price is fair. It wouldn't have made any sense for me to drop $500 on a keyboard intended as an educational detour. I needed a tool for a temporary job, and for that, the Planck was a great choice. It delivered a decent typing experience for my "internship" without breaking the bank.
 
-That being said, coming from a premium board like the LX60 Copper Edition—a board whose kit cost three times the Planck's—or even the Tofu60 2.0, the difference is stark. These are admittedly unfair comparisons, but it's what I have, and it highlights what you give up at this price point.
+That being said, coming from a premium board like the LX60 Copper Edition—whose kit cost three times the Planck's—or even the Tofu60 2.0, the difference is stark. These are admittedly unfair comparisons, but it's what I have, and it highlights what you give up at this price point.
 
 The main thing is the feel. I'm used to keyboards that could double as bludgeoning tools. My Tofu60 2.0 is also a budget board, but it's a dense block of aluminum that feels like a serious instrument. The Planck, by contrast, feels like a toy.
 
-While its lightness is a huge plus for portability, it feels flimsy and insubstantial at a proper workstation. It slides around and sounds like complete ass without foams (and still not great with). For someone who appreciates the tactile and aesthetic presence of a well-built keyboard, it was a constant, if only mild, disappointment.
+While its weight, or lack thereof, is a huge plus for portability, it feels flimsy and insubstantial at a proper workstation. It slides around and sounds like complete ass without foams (and still not great with). For someone who appreciates the tactile and aesthetic presence of a well-built keyboard, it was a constant, if only mild, disappointment.
 
 ## So, What Did I Learn?
 This whole experiment was about pushing my boundaries and seeing what was on the other side. The Planck was a difficult, frustrating, and ultimately invaluable teacher. Here's what I'm taking with me:
