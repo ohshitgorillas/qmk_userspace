@@ -34,9 +34,13 @@ This advice isn't for everyone, of course. Some people don't want any challenge 
 ### The Keyboard Dark Arts
 I'm a 60% user at heart. That's my sweet spot. The thought of using anything smaller as a daily driver is extremely unappealing, to put it nicely: I write a fair amount of code, and I need easy access to numbers and symbols. At the same time, I don't need anything larger. I appreciate the more compact form factor and the extra desk space, and (as you can probably tell) I vastly prefer home row navigation to dedicated arrow keys. A 60% keyboard has all the keys I need and none that I don't.
 
-So why the fuck did I buy a 40% keyboard? An ortholinear one, no less? Why would someone who writes code buy a keyboard that doesn't have dedicated keys for numbers or critical symbols like `` `, -, =, [, ], \``?
+So why did I buy a 40% keyboard? An ortholinear one, no less? No, seriously, why the fuck would someone who writes code buy a keyboard that doesn't have dedicated keys for numbers or critical symbols like `` `, -, =, [, ], \ ``?
 
-Because I was stuck in a rut. My setup was good, but I knew it could be better. I wanted more, but I had also reached the limits of my knowledge and capacity with the Vial software.
+To the wider world, where to find the "missing" keys on a 60% layout is a solved problem with several freely available solutions. Take the HHKB-style arrow keys (`[;'/`), accessed via a Function key made from splitting right Shift. But this "solution" always felt like a compromise. It forces an awkward reach for the pinky to anchor on the Fn key, then requires you to pivot your entire hand to hit the arrows. Need Page Up? That's an even deeper, more strained reach, all while your pinky is held hostage. To me, that's barely an improvement over dedicated arrow keys. If the goal is maximizing speed and ergonomics, this ain't it.
+
+My theory was that the real solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the Caps Lock key. By turning it into a layer key, I could get true home-row navigation with `IJKL`, completely unchaining my right hand. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, and Enter to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over their standard positions.
+
+But I was stuck in a rut. My setup was good, but I knew it could be better. I wanted more, but I had also reached the limits of my knowledge and capacity with the Vial software.
 
 To get to the next level, I needed to go back to school. I saw the Planck as a ticket out of my comfort zone: a masterclass in constraint-driven design. By stripping away so many keys and adding thumb keys to (somewhat) compensate, the Planck forces you to fundamentally reconsider core aspects of the layout. Where does Enter go? Backspace? Where's the fucking right Shift? How do you remember where all the symbols are‽‽
 
@@ -134,7 +138,7 @@ Beyond the physical clumsiness, the mental load of using the Planck for any real
 
 It may sound minor, but the constant cognitive friction of going, "*Okay, there's the dash, tap tap tap, and now there's the open parenthesis, and... no, backspace, now here's the... fuck, that's not it either, THERE's the open parenthesis... tap, tap, tap... now we need an underscore... ope, wrong layer, here's the underscore*" takes its toll. All those little micro-interruptions are murder on your flow state. When you're deep in a coding problem or trying to articulate a complex idea, the last thing you want is to be derailed by figuring out where the fuck you put `F12`.
 
-While, by the end, I was quite fast with several symbols—being `-, _, !, =` mostly—the rest presented a constant mental load with frequent misfires. It wasn't until I switched back to my 60%s that I realized just how exhausting that was: the feeling of simply hitting number and symbol keys without a second thought was remarkably freeing.
+While, by the end, I was quite fast with a few symbols—being `-, _, !` mostly—the rest presented a constant mental load with frequent misfires. It wasn't until I switched back to my 60%s that I realized just how exhausting that was: the feeling of simply hitting number and symbol keys without a second thought was remarkably freeing.
 
 ### It's Cheap (and That's Okay)
 Let's be clear: the Planck is an entry-level board, and at $99 for the base kit, the price is fair. It wouldn't have made any sense for me to drop $500 on a keyboard intended as an educational detour. I needed a tool for a temporary job, and for that, the Planck was a great choice. It delivered a decent typing experience for my "internship" without breaking the bank.
