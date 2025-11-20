@@ -1,6 +1,8 @@
 # ohshitgorillas' Drop x OLKB Planck rev7 Layout
 
 ## Physical Configuration
+![Planck rev7](planck.jpg)
+
 A green Planck rev7 keyboard from Drop using:
 - Drop Jasmin MT3 ortho keycaps
 - BSUN Maple Sugar switches
