@@ -36,13 +36,13 @@ I'm a 60% user at heart. That's my sweet spot. The thought of using anything sma
 
 So why did I buy a 40% keyboard? An ortholinear one, no less? No, seriously, why the fuck would someone who writes code buy a keyboard that doesn't have dedicated keys for numbers or critical symbols like `` `, -, =, [, ], \ ``?
 
-To the wider world, where to find the "missing" keys on a 60% layout is a solved problem with several freely available solutions. Take the HHKB-style arrow keys (`[;'/`), accessed via a Function key made from splitting right Shift. This "solution" always felt like a compromise to me. It forces an awkward reach for the pinky to anchor on the Fn key, then requires you to pivot your entire hand to hit the arrows. Need Page Up? That's an even deeper, more strained reach, all while your pinky is held hostage.
+To the wider world, where to find the "missing" keys on a 60% layout is a solved problem with several freely available solutions. Take the HHKB-style arrow keys (`[;'/`), accessed via a Function key made from splitting right Shift. This "solution" always felt like a compromise to me. It forces an awkward reach for the pinky to anchor on the Fn key, then requires you to pivot your hand to hit the arrows. Need Page Up? That's an even deeper, more strained reach, all while your pinky is held hostage.
 
 If the goal is maximizing speed and ergonomics, this ain't it.
 
-My theory was that the real solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the Caps Lock key. By turning it into a layer key, I could get true home-row navigation with `IJKL` with no pinky strain. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, Enter, and modifiers to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over their standard positions. I almost never, for example, use my dedicated Backspace key anymore: Caps Lock + `d` for Backspace is always faster and more ergonomic.
+I (and many others also) figured that a better solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the dumbfuck Caps Lock key. By turning it into a layer key instead, I could get true home-row navigation with `IJKL` with no pinky strain. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, Enter, and modifiers to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over their standard positions. I almost never, for example, use my dedicated Backspace key anymore: Caps Lock + `d` for Backspace is always faster and more ergonomic.
 
-But I was stuck in a rut. My setup was good, but I knew it could be better. I wanted my home row to do more, but I had also reached the limits of my knowledge and capacity with the Vial software.
+My setup was good, but I was stuck in a rut. I knew it could be better. I wanted my home row to do more, but I had also reached the limits of my knowledge and capacity with the Vial software.
 
 To get to the next level, I needed to go back to school. I saw the Planck as a ticket out of my comfort zone: a masterclass in constraint-driven design. By stripping away so many keys and adding thumb keys to (somewhat) compensate, the Planck forces you to fundamentally reconsider core aspects of the layout. Where does Enter go? Backspace? Where's the fucking right Shift? How do you remember where all the symbols are‽‽
 
@@ -57,7 +57,7 @@ And that's exactly what the Planck did.
 ## The Review Part of the Review
 Look, I'm not going to reinvent the wheel here talking about the Planck's build quality—plenty of people have already beaten that horse to death. But since you're here, you get my takes anyway.
 
-The build quality is aggressively meh... but so is the price, so I wasn't expecting much to begin with. The sound profile out of the box is, to put it politely, quite bad: hollow, metallic, and almost clangy. The foams helped considerably, but we're still a far cry from "good" as some hollowness lingers.
+The build quality is aggressively meh... but so is the price, so I wasn't expecting much to begin with. The sound profile out of the box is, to put it politely, quite bad: hollow and almost clangy. The foams helped considerably, but we're still a far cry from "good" as some hollowness lingers.
 
 One gripe I will bring up is that the board has "eaten" a fair number of switches, meaning they never came off the plate in one piece. They were in so tight that the switch housings came apart rather than just come loose. At one point, attempting to remove a single switch resulted in the plate and PCB separating entirely, with every other switch being yanked out of their hotswap sockets and pulled up with the plate in the process. What the honest to god fuck?? Two thumbs down there. Get your shit together, Drop.
 
@@ -75,7 +75,7 @@ I put a 2U spacebar on the right, since I almost exclusively hit Space with my r
 
 Think about it: your thumbs are incredibly agile and dexterous, yet on a standard keyboard one of them hits a single giant spacebar, usually in the same general spot, while the other floats around doing absolutely nothing. What a waste of real estate and talent!
 
-Anticipating (correctly) a steep learning curve with a fuckton of errors, I put Backspace and Delete as left-handed thumb keys. And it was fucking *glorious!*
+Anticipating (correctly) a steep learning curve with a ton of errors, I put Backspace and Delete as left-handed thumb keys. And it was fucking *glorious!*
 
 With a traditional Backspace, when you make a mistake, you have to lift your right hand off the home row, reach over to the Backspace key, fix the error, then return to home. It's a constant, if minor, interruption to your flow if you have fat fingers. But with Backspace under my left thumb? I could correct errors instantly without ever breaking stride. My right hand stayed planted on the home row while my left thumb handled all the cleanup. I could even hold Raise with my right thumb, right next to the Spacebar, to turn those keys into "delete next/previous word."
 
@@ -90,7 +90,7 @@ While using the Planck does feel sometimes like solving a damn Rubik's cube, the
 
 Here's the thing: I'm the type of person who gets genuinely excited about optimizing systems. I'll spend hours refactoring code just to make it more elegant. The Planck tapped into that same part of my brain in a way my 60% boards never could.
 
-With standard layouts, customization feels like rearranging furniture in a house someone else designed. You're mostly just remapping existing keys—maybe swapping Caps Lock for Control, or putting media controls under a function layer. It's useful, but it's not *creative*. There's no real *need* to rethink where Backspace goes because its default location, while arguably suboptimal, is good enough.
+With standard layouts, customization feels like rearranging furniture in a house someone else designed. You're mostly just remapping a few existing keys—maybe swapping Caps Lock for Control, or putting media controls under a function layer. It's useful, but it's not *creative*. There's no real *need* to rethink where Backspace goes because its default location, while arguably suboptimal, is okay.
 
 The Planck, on the other hand, is a blank canvas with insane constraints.
 
@@ -131,7 +131,7 @@ Your muscle memory is actively working against you, turning every word into a ba
 
 Even after three weeks, I was pretty good, but never fully got comfortable. On Monkeytype, with just lowercase words, I clawed my way back to a respectable 110 WPM. But the moment I had to introduce punctuation—and note the lack of dedicated dash or parenthesis keys—you can take another 30 WPM off. Numbers? Cut the speed in half and double the errors. Outside of that, there were endlessly frustrating series of cascading mistakes: *Oops, that's a typo, where's th... oh, fuck, did I just hit tab? Undo that too. Oh my god, did I just escape out? Ok, restore foc... argh... there, focus restored. And now ba.. NO, NOT FORWARD DELETE, BACKSPACE. FUCK. FUCKING FUCK.*
 
-Could I have given it more time and gotten back to full proficiency? Probably. But after three weeks, I felt I'd learned what I needed to and was ready to go back to my 60s.
+Could I have given it more time and gotten back to full proficiency? Probably. But after three weeks, I felt I'd learned what I needed to and was ready to go back home to my 60s.
 
 Those of you who main these kinds of keyboards? Kudos, seriously. You have more patience, grit, and skill than I do. My 'internship' was difficult enough; I simply cannot imagine using something like this as a daily driver.
 
@@ -174,7 +174,7 @@ As it turns out, solving this problem required the full arsenal of QMK's advance
 This single victory made the entire painful experiment worth it.
 
 ### Home Row Mods Are the Shit
-This is a genuine revelation and one of those 'out of the box' ideas that I would never have been exposed to had I not picked up the Planck. Having modifiers on the home row keys is a massive ergonomic and efficiency boost, and I'm never going back.
+This is a genuine revelation and one of those 'out of the box' ideas that I may never have been exposed to had I not picked up the Planck. Having modifiers on the home row keys is a massive ergonomic and efficiency boost, and I'm never going back.
 
 For those who are unfamiliar, here's the gist. Each of your eight home keys (`ASDF` and `JKL;`) has two jobs: when you tap it, it prints the character; when you hold it, it acts as a modifier. For my keyboards, `A` and `;` are Ctrl, `S` and `L` are Opt, `D` and `K` are Cmd, and `F` and `J` are Shift.
 
@@ -183,17 +183,17 @@ If this sounds like a horrific idea that would interrupt your typing flow consta
 Even ignoring Shift, think about how often you use modifiers. Every copy, paste, and shortcut requires you to contort your fingers into an unnatural position to reach Ctrl or Cmd. Home Row Mods eliminate that entirely. The modifiers are already right under your fingers at all times. Instead of reaching down for Command with one hand and tapping `C` with the other, I just hold `K` and tap `C`. It's faster, more comfortable, and dramatically reduces hand strain. It's one of those changes that feels so right, you'll wonder how you ever tolerated the old way.
 
 ### The Nuance of ABS in MT3
-I do not like shined keycaps—the 'stickiness' bothers me—so I've always stayed away from ABS. Give me a fresh, rough batch of PBT any day.
+I do not like shined keycaps—the 'stickiness' bothers me, I prefer my fingers to glide over the keycaps—so I've always stayed away from ABS. Give me a fresh, rough-ish batch of PBT any day.
 
 For this board, I broke that rule and went with Drop's Jasmin MT3 keycaps in ABS. I was mostly curious about the MT3 profile, and I figured I wouldn't use the board enough to fully shine the caps by the time my "internship" was over.
 
-The keycaps are lightly shined, but still in good shape.
+The keycaps are starting to smooth out, but are still in good shape.
 
 And I'm a big fan of MT3. The scooping is super comfy. And honestly? The profile makes the shine less of an issue for me. I think it's the fact that the scooping gives the key some texture regardless of shining. I could see myself running a set of MT3 ABS until I could see my own reflection in them. I'd still prefer to see Drop offer more MT3 in PBT, but I'm no longer an absolutist.
 
 ### 60% is My Home
-This experiment solidified it for me. The Planck was a fun, educational, and occasionally infuriating detour, but 60% is where I belong. I need my number keys, and I need a layout that doesn't make me feel like I'm solving a puzzle every time I need to type a fucking backslash.
+This experiment solidified it for me. The Planck was a fun, educational, and occasionally infuriating detour, but 60% is where I belong. I need my number keys, and I need a layout that doesn't make me feel like I'm solving a fucking puzzle to type a fucking backslash.
 
-The Planck wasn't a failure; it was a vision quest. It forced me to learn, adapt, and master new skills. It taught me the true power of QMK and revealed the ergonomic benefits of Home Row Mods, as well as how to master tap-hold timing for the Caps Lock key. I'm returning to my 60% boards not because the Planck was bad, but because it succeeded in giving me the knowledge I needed to make my preferred layout even better (the current state of which can be found [here](../../../layouts/60_ansi_tsangan_split_bs_rshift/ohshitgorillas/README.md)). I'm glad to be back, but I'm also grateful for the journey.
+The Planck, again, was a vision quest. It forced me to learn, adapt, and master new skills. It taught me the true power of QMK and revealed the ergonomic benefits of Home Row Mods, as well as how to master tap-hold timing for the Caps Lock key. I'm returning to my 60% boards not because the Planck was bad, but because it succeeded in giving me the knowledge I needed to break out of my rut and make my preferred layout even better (the current state of which can be found [here](../../../layouts/60_ansi_tsangan_split_bs_rshift/ohshitgorillas/README.md)). I'm glad to be back, but I'm also grateful for the journey.
 
 And I'm really going to miss having Backspace under my thumb.
