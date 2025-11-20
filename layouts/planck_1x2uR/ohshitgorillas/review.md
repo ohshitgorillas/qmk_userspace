@@ -1,8 +1,8 @@
 # Planck rev7 Ortholinear 40% Keyboard: A Review
 
-This review is incomplete. Don't read it yet.
-
 I used the Planck keyboard for three weeks. Here are my unfiltered thoughts.
+
+![Planck rev7](planck.jpg)
 
 ## Why would you do this to yourself? What's the point?
 
