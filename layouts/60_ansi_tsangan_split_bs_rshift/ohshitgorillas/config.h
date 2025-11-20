@@ -12,7 +12,7 @@
 
 // leader
 #define LEADER_NO_TIMEOUT
-#define LEADER_TIMEOUT 350
+#define LEADER_TIMEOUT 400
 
 // using fewer than 8 layers
 #define LAYER_STATE_8BIT
