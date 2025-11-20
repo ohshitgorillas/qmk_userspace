@@ -142,6 +142,8 @@ correcdt -> correct
 idsaster -> disaster
 doies -> does
 odesn't -> doesn't
+doin't -> don't
+dion't -> don't
 :dwon: -> down
 :eigth -> eight
 eitehr -> either
@@ -225,6 +227,7 @@ keybard -> keyboard
 keyboarsd -> keyboards
 keybvoard -> keyboard
 keybhoard -> keyboard
+keybnoard -> keyboard
 kjeys -> keys
 kign: -> king
 knjee -> knee
@@ -252,6 +255,7 @@ loasd -> loads
 measn -> means
 mesaure -> measure
 emnts: -> ments
+:mght: -> might
 mign: -> ming
 mzie: -> mize
 moduel -> module
@@ -291,6 +295,7 @@ poitn -> point
 possbile -> possible
 :powre -> power
 prefver -> prefer
+:pritn -> print
 proejct -> project
 projkect -> project
 pythoin -> python
@@ -342,6 +347,7 @@ thjen -> then
 thsee -> these
 tehse -> these
 :tehy: -> they
+:rhing -> thing
 thinmg -> thing
 thimng -> thing
 thiung -> thing
