@@ -15,7 +15,7 @@ There *are* reasons, but to understand them, we first need to start thinking abo
 ### Fuck Arrow Keys
 That's right, I said it. Go ahead: gasp, boo, hiss, clutch your fucking pearls.
 
-To be clear, this isn't about *not using* arrow keys. Arrow keys are indispensable. What you don't need are *dedicated* arrow keys.
+To be clear, this isn't about *not having or using navigation features*: we all need to move the cursor around somehow. What you don't need are *dedicated* arrow keys.
 
 Many of you are sitting in front of a standard full-size or TKL keyboard right now. These are very straightforward: if you want F5, you reach up and press the F5 key; if you want Print Screen, you reach over and press the Print Screen key. If you want the cursor to move up a line, you reach over and press the ↑ key. Easy peasy.
 
@@ -23,14 +23,16 @@ Here's a new way of thinking about this, though: all that reaching around the ke
 
 Stop reaching and start chording.
 
-This isn't groundbreaking: cut, copy, and paste are indispensable features that have never had dedicated keys on any standardized modern layout. You don't reach across the keyboard for a key, you *chord* Ctrl (or Cmd) + X, C, or V. Your fingers never leave the 40% portion of the keyboard. I'm just taking that same logic and applying it to the arrow keys.
+This isn't groundbreaking: cut, copy, and paste are indispensable features that have never had dedicated keys on any standardized modern layout. You don't reach across the keyboard for a key, you *chord* Ctrl (or Cmd) + X, C, or V. Your fingers never leave the 40% portion of the keyboard. I'm just taking that same logic and applying it to the arrow keys. 
 
-Take a look at your Caps Lock key: it's a useless little bitch of a key taking up prime home row real estate. With the magic of programmable mechanical keyboards, we can transform it into a key that opens up a layer with things like Enter, Backspace, Delete, and arrow keys all within easy reach of home row. Yes, it takes a little elbow grease to get there. Yes, it takes some retraining of your muscle memory... but for serious typists, the payoff can be significant. And fun to configure!
+Hell, even that isn't revolutionary: gamers figured this out decades ago with `WASD`. Instead of reaching for dedicated arrow keys scattered around the keyboard, they put movement controls right under their left hand on the home row where they belong. It's faster, more ergonomic, and keeps your hand in a natural position. The same principle applies here: why reach for arrow keys when you can have navigation right under home row? The gaming world has been proving this works for years—we're just applying that wisdom to everyday typing and text editing. All it takes is a way to toggle that layer.
 
-The takeaway: ditching the "one key, one function" paradigm for the "chording and layering" paradigm can lead to gains in efficiency, speed, and ergonomics for those willing to learn.
+Next, take a look at your Caps Lock key: it's a useless little bitch taking up prime home row real estate. With the magic of programmable mechanical keyboards, we can transform it into a key that opens up a layer with things like Enter, Backspace, Delete, and yes, even arrow keys, all right on the home row.
+
+This advice isn't for everyone, of course. Yes, it takes a little elbow grease to get there. Yes, it takes some retraining of your muscle memory... but for serious typists, the payoff can be significant. And fun to configure!
 
 ### The Keyboard Dark Arts
-I'm a 60% user at heart. That's my sweet spot. The thought of using anything smaller as a daily driver is extremely unappealing: I write a fair amount of code, and I need easy access to numbers and symbols.
+I'm a 60% user at heart. That's my sweet spot. The thought of using anything smaller as a daily driver is extremely unappealing: I write a fair amount of code, and I need easy access to numbers and symbols. At the same time, I don't need anything larger. I appreciate the more compact form factor and the extra desk space, and (as you can probably tell) I vastly prefer home row navigation to dedicated arrow keys. A 60% keyboard has all the keys I need and none that I don't.
 
 So why the fuck did I buy a 40% keyboard? An ortholinear one, no less?
 
@@ -38,7 +40,7 @@ I'd hit a point of diminishing returns with my configuration. My setup was good,
 
 To get to the next level, I needed to go back to school. I saw the Planck as a ticket out of my comfort zone: a masterclass in constraint-driven design. By stripping away so many keys and adding thumb keys to (somewhat) compesnate, the Planck forces you to fundamentally reconsider the layout. Where does Enter go? Backspace? Where's the fucking right Shift? How do you remember where all the symbols are‽‽
 
-There are no easy answers, no one-size-fits-all solution. Not even close. The only way is a descent into the keyboard dark arts: the world of advanced QMK programming. This isn't just remapping keys and adding layers, it's an entire programming language for your keyboard. We're talking tap-hold timing intricacies that let home row keys double as fast-access modifiers, leader sequences that turn your keyboard into a command center, dynamic on-the-fly custom macros, and layering schemes so complex they'd make an Inception architect's head spin. Things no sane person using a standard layout would ever want or need. The result is a layout that is custom-fitted like leather to each typist.
+There are no easy answers, no one-size-fits-all solution. Not even close. The only way is a descent into the keyboard dark arts: the world of QMK, aka Quantum Mechanical Keyboard. This isn't just remapping keys and adding layers, it's an entire programming language for your keyboard. We're talking tap-hold and double/triple-tap timing intricacies, leader sequences that turn your keyboard into a command center, dynamic on-the-fly custom macros, and layering schemes so complex they'd make an Inception architect's head spin. The kind of things no sane person using a standard layout would ever want or need. The result is a layout that is custom-fitted like leather to each typist.
 
 It's that knowledge I was after. The Planck wasn't just a keyboard: it was an internship, a trial by fire in these dark arts. A vision quest.
 
@@ -63,7 +65,7 @@ Seriously, having so many keys for my thumbs instead of one giant spacebar is fu
 
 I put a 2U spacebar on the right, since I almost exclusively use my right thumb. It was the perfect size—no more, no less than I needed. (My brief, disastrous experiment with a single-wide spacebar proved that.)
 
-Anticipating a steep learning curve with a fuckton of errors, I put Backspace and Delete as left-handed thumb keys. And it was fucking *glorious*! Hands down my single favorite feature of the Planck.
+Anticipating (correctly) a steep learning curve with a fuckton of errors, I put Backspace and Delete as left-handed thumb keys. And it was fucking *glorious*! Hands down my single favorite feature of the Planck.
 
 Think about it: your thumbs are incredibly agile and dexterous, yet on a standard keyboard one of them hits a single giant spacebar, usually in the same general spot, while the other floats around doing absolutely nothing. What a waste of real estate and talent!
 
@@ -110,7 +112,7 @@ Finally, this thing is hilariously small. I have a fairly large desk with ample 
 
 This translates to portability. Tossing it in a bag is an afterthought, and while I never took it anywhere, it would be the perfect coffee shop or travel board. You can have a decent typing experience on the go without lugging around a 15-pound block of aluminum and copper.
 
-But for a die-hard ortho user, this portability is more than just a convenience. While your brain can store multiple keyboard layouts, it can only have one proficiently loaded into your RAM at a time. You cannot simply switch back-and-forth from ortho to staggered—it takes time and a storm of frustrating typos to readjust your muscle memory. For anyone fully committed to the ortho lifestyle, being able to bring your board with you on-the-go is a necessity.
+But for a die-hard ortho user, portability is more than just convenience. While your brain can store multiple keyboard layouts, it can only have one proficiently loaded into your RAM at a time. You cannot simply switch back-and-forth from ortho to staggered—it takes time and a storm of frustrating typos to readjust your muscle memory. For anyone fully committed to the ortho lifestyle, being able to bring your board with you on-the-go is a necessity.
 
 ## The Bad Stuff
 
