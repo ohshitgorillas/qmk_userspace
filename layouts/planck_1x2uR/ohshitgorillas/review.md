@@ -40,7 +40,7 @@ To the wider world, where to find the "missing" keys on a 60% layout is a solved
 
 If the goal is maximizing speed and ergonomics, this ain't it.
 
-I (and many others also) figured that a better solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the dumbfuck Caps Lock key. By turning it into a layer key instead, I could get true home-row navigation with `IJKL` with no pinky strain. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, Enter, and modifiers to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over their standard positions. I almost never, for example, use my dedicated Backspace key anymore: Caps Lock + `d` for Backspace is always faster and more ergonomic.
+I (and many others also) figured that a better solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the dumbfuck Caps Lock key. By turning it into a layer key instead, I could get true home-row navigation with `IJKL` with no pinky strain. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, Enter, and modifiers to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over the standard positions of many keys I *did* have. I almost never, for example, use my dedicated Backspace key anymore: Caps Lock + `d` for Backspace is faster and more ergonomic.
 
 My setup was good, but I was stuck in a rut. I knew it could be better. I wanted my home row to do more, but I had also reached the limits of my knowledge and capacity with the Vial software.
 
@@ -48,7 +48,7 @@ To get to the next level, I needed to go back to school. I saw the Planck as a t
 
 There are no easy answers, no one-size-fits-all solution. Not even close. The only way is a descent into the keyboard dark arts: the world of QMK, aka Quantum Mechanical Keyboard. This isn't just remapping keys and adding layers, it's an entire programming language for your keyboard. We're talking tap-hold and double/triple-tap timing intricacies, leader sequences that turn your keyboard into a command line, dynamic on-the-fly custom macros, and layering schemes so complex they'd make an Inception architect's head spin. The result is a layout that is custom-fitted like leather to each typist.
 
-I call these skills the "keyboard dark arts" because they are the kinds of things no sane person using a standard layout would ever want or need... but it's that knowledge and those skills that I was after. The Planck wasn't just another keyboard to add to a collection: it was an internship, a trial by fire in these dark arts. A vision quest.
+I call these skills the "keyboard dark arts" because they are the kinds of things no sane person using a standard layout would ever want or need... but it's that knowledge and those skills that I was after. The Planck wasn't just another keyboard to add to my collection: it was an internship, a trial by fire in these dark arts. A vision quest.
 
 And this, my friends, is the crux of my reasoning for buying the Planck: sometimes you have to break something down to understand how to build it back up better and stronger. I knew going in that this would be painful. I knew I'd hate it. But to truly maximize the potential of the 60%, I needed to step completely outside my comfort zone—I needed a keyboard that would force me to question assumptions and teach me the art of QMK.
 
@@ -61,7 +61,7 @@ The build quality is aggressively meh... but so is the price, so I wasn't expect
 
 One gripe I will bring up is that the board has "eaten" a fair number of switches, meaning they never came off the plate in one piece. They were in so tight that the switch housings came apart rather than just come loose. At one point, attempting to remove a single switch resulted in the plate and PCB separating entirely, with every other switch being yanked out of their hotswap sockets and pulled up with the plate in the process. What the honest to god fuck?? Two thumbs down there. Get your shit together, Drop.
 
-I tried both the POM and steel plates before settling on BSUN Maple Sugar switches on the steel plate. I used Drop's Jasmin MT3 Ortho keycaps with a green case. The result is decently attractive.
+I tried both the POM and steel plates before settling on BSUN Maple Sugar switches on the steel plate. I used Drop's Jasmin MT3 Ortho keycaps with a green case. The result is decently attractive and a reasonably good typing experience—and that's coming from someone who's already quite picky. It's not going to blow anyone's mind, but even if you're a bit of a snob like me, it (barely) passes muster.
 
 Now, let's dive into the meat of this review: what I loved and hated about living with the Planck.
 
@@ -90,11 +90,11 @@ While using the Planck does feel sometimes like solving a damn Rubik's cube, the
 
 Here's the thing: I'm the type of person who gets genuinely excited about optimizing systems. I'll spend hours refactoring code just to make it more elegant. The Planck tapped into that same part of my brain in a way my 60% boards never could.
 
-With standard layouts, customization feels like rearranging furniture in a house someone else designed. You're mostly just remapping a few existing keys—maybe swapping Caps Lock for Control, or putting media controls under a function layer. It's useful, but it's not *creative*. There's no real *need* to rethink where Backspace goes because its default location, while arguably suboptimal, is okay.
+With standard layouts, customization feels like rearranging furniture in a house someone else designed. You're mostly just remapping a few existing keys—maybe swapping Caps Lock for Control, swapping modifier positions to accommodate macOS vs Windows, or putting media controls under a function layer. It's useful, but it's not *creative*. There's no real *need* to rethink where Backspace goes because its default location, while arguably suboptimal, is okay.
 
 The Planck, on the other hand, is a blank canvas with insane constraints.
 
-Every key placement becomes a deliberate choice. Where do you put Enter when there's no dedicated place for it? Do you give up easy access to `'"` to put it on the home row, or do you move it down to share a key with Shift? What are the timing settings that allow Shift and Enter to share a key seamlessly for how I personally type? Or maybe we should leave Shift alone and Enter could be a thumb key? Each decision cascades into others, creating this intricate web of interdependent choices.
+Every key placement becomes a deliberate choice. Where do you put Enter when there's no dedicated place for it? Do you give up easy access to `'"` to put it on the home row, or do you move it down to share a key with Shift? What are the timing settings that allow Shift and Enter to share a key seamlessly for how I personally type so I'm not constantly sending incomplete messages? Or maybe we should leave Shift alone and Enter could be a thumb key? Each decision cascades into others, creating this intricate web of interdependent choices.
 
 Every iteration felt like solving a design problem. I'd identify a pain point—say, I couldn't find underscore reliably, or I was having trouble accessing `Cmd+[` to un-indent code—then experiment with different solutions. Each solution would work for a while, then reveal new problems that needed solving.
 
@@ -155,16 +155,15 @@ While its weight, or lack thereof, is a huge plus for portability, it feels flim
 This whole experiment was about pushing my boundaries and seeing what was on the other side. The Planck was a difficult, frustrating, and ultimately invaluable teacher. Here's what I'm taking with me:
 
 ### The Power of QMK
-QMK is not just about remapping keys and layers: it's a fundamental reimagining of what a keyboard can do.
+QMK is not just about remapping keys and layers: it's a fundamental reimagining of what a keyboard can do. It's about transforming a static input device into a dynamic partner that you can teach to handle your most common and tedious tasks. It's about outsourcing the boring parts of typing to your keyboard's firmware so your brain can focus on what matters.
 
-For example, take the Leader key, which turns your keyboard into a command line:
-- `Leader` `P` `E` `M` prints my personal email.
-- `Leader` `W` `E` `M` prints my work email.
-- `Leader` `S` `M` tOgGLes aUToMated spONGEBOB mOckiNg TExt mOdE.
+Take the Leader key. I've taught my keyboard my personal and work email addresses. Now, instead of typing them out, I just hit `Leader` `P` `E` `M`, and the keyboard does it for me. I've even taught it how to tOgGle aUToMated spONGEBOB mOckiNg TExt mOdE (`Leader` `S` `M`), because why the fuck not?
 
-Then there's my [implementation of xcase](https://github.com/ohshitgorillas/qmk-xcase). Say I need to type an obnoxiously long file path. I hit `Leader` `X` `C` `/` and suddenly all/of/my/spaces/turn/into/slashes. But:the:fun:doesn't:stop:there! Anything|can|replace|spaces! IcanEVENtoggleCAPSlockONandOFFwithTHEspacebarTOtypeLIKEthis!
+This extends to automating common formatting. With my [implementation of xcase](https://github.com/ohshitgorillas/qmk-xcase), I can tell my keyboard to turn spaces into underscores, hyphens, or any other character on the fly. Need to type an obnoxiously long file path? `Leader` `X` `C` `/`, and suddenly all/of/my/spaces/turn/into/slashes.
 
-And having autocorrect at the firmware level, everywhere I type? Beautiful. I cannot tell you how many times a day I type 'teh'.
+And finally, there's error correction. With autocorrect running at the firmware level, my keyboard knows I'm a dumbass who types 'teh' a dozen times a day and just fixes it for me, everywhere.
+
+*That's* the real power of QMK. It’s a toolkit for building a keyboard that becomes a true extension of your own mind—one that anticipates your needs and handles the grunt work for you.
 
 ### Mastering Dual-Key Timing is a Superpower
 This was the holy grail for me. I'd struggled in Vial to get a dual-function Caps Lock key that worked reliably—one that could serve as a lightning-fast layer key on hold but still function as a normal Caps Lock on tap. It just wasn't possible; there was too much overlap between tapping and holding. I eventually settled for turning Caps Lock into a dedicated layer key, with the literal Caps Lock feature accessed via holding Caps Lock and hitting the spacebar. It was functional, but not great.
