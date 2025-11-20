@@ -40,9 +40,9 @@ To the wider world, where to find the "missing" keys on a 60% layout is a solved
 
 If the goal is maximizing speed and ergonomics, this ain't it.
 
-My theory was that the real solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the Caps Lock key. By turning it into a layer key, I could get true home-row navigation with `IJKL` with no pinky strain. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, Enter, and modifiers to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over their standard positions.
+My theory was that the real solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the Caps Lock key. By turning it into a layer key, I could get true home-row navigation with `IJKL` with no pinky strain. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, Enter, and modifiers to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over their standard positions. I almost never, for example, use my dedicated Backspace key anymore: Caps Lock + `d` for Backspace is always faster and more ergonomic.
 
-But I was stuck in a rut. My setup was good, but I knew it could be better. I wanted more, but I had also reached the limits of my knowledge and capacity with the Vial software.
+But I was stuck in a rut. My setup was good, but I knew it could be better. I wanted my home row to do more, but I had also reached the limits of my knowledge and capacity with the Vial software.
 
 To get to the next level, I needed to go back to school. I saw the Planck as a ticket out of my comfort zone: a masterclass in constraint-driven design. By stripping away so many keys and adding thumb keys to (somewhat) compensate, the Planck forces you to fundamentally reconsider core aspects of the layout. Where does Enter go? Backspace? Where's the fucking right Shift? How do you remember where all the symbols are‽‽
 
@@ -50,7 +50,7 @@ There are no easy answers, no one-size-fits-all solution. Not even close. The on
 
 I call these skills the "keyboard dark arts" because they are the kinds of things no sane person using a standard layout would ever want or need... but it's that knowledge and those skills that I was after. The Planck wasn't just another keyboard to add to a collection: it was an internship, a trial by fire in these dark arts. A vision quest.
 
-And this, my friends, is the crux of my reasoning for buying the Planck: sometimes you have to break something down to understand how to build it back up better and stronger. I knew going in that this would be painful. I knew I'd hate it. But to truly master the 60%, I needed to step completely outside my comfort zone—I needed a keyboard that would force me to question assumptions and teach me the art of QMK.
+And this, my friends, is the crux of my reasoning for buying the Planck: sometimes you have to break something down to understand how to build it back up better and stronger. I knew going in that this would be painful. I knew I'd hate it. But to truly maximize the potential of the 60%, I needed to step completely outside my comfort zone—I needed a keyboard that would force me to question assumptions and teach me the art of QMK.
 
 And that's exactly what the Planck did.
 
