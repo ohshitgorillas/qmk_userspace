@@ -6,7 +6,7 @@ forseeable -> foreseeable
 fourties -> forties
 fourty -> forty
 idiosyncrac -> idiosyncras
-liquify -> liquefy
+liquif -> liquef
 millenium -> millennium
 miniscule -> minuscule
 sacreligious -> sacrilegious

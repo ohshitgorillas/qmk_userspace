@@ -6,14 +6,14 @@ forseeable -> foreseeable
 fourties -> forties
 fourty -> forty
 idiosyncrac -> idiosyncras
-liquify -> liquefy
+liquif -> liquef
 millenium -> millennium
 miniscule -> minuscule
 sacreligious -> sacrilegious
 superced -> supersed
 
-# personal stuff - most people won't get much use out of 
-uthhe -> (U-Th)/He
+# personal stuff - most people won't get much use out of
+uthhe: -> (U-Th)/He
 :acrn: -> Alphachron
 thermocrhon -> thermochron
 
@@ -40,6 +40,7 @@ fuxk -> fuck
 fyck -> fuck
 fuvk -> fuck
 :fuc: -> fuck
+fuckking -> fucking
 ashsole -> asshole
 sashole -> asshole
 asshoel -> asshole
@@ -114,6 +115,8 @@ begn: -> begin
 bteter -> better
 bgetter -> better
 btween -> between
+:biut: -> but
+:buit: -> but
 :byt:he: -> by the
 :byth:e: -> by the
 :b:ythe: -> by the
@@ -142,7 +145,7 @@ odesn't -> doesn't
 :dwon: -> down
 :eigth -> eight
 eitehr -> either
-iether -> either
+iether: -> either
 :eiter -> either
 :esle -> else
 :eles -> else
@@ -165,6 +168,8 @@ figth -> fight
 finmd -> find
 flexbil -> flexibl
 fingedr -> finger
+forfget -> forget
+forbget -> forget
 forfgot -> forgot
 forgfot -> forgot
 fogrot -> forgot
@@ -173,6 +178,8 @@ ferquently -> frequently
 freind -> friend
 frienbd -> friend
 fromthe -> from the
+furtehr -> further
+fruther -> further
 gneeral -> general
 hgt: -> ght
 gonig -> going
@@ -200,6 +207,8 @@ identiucal -> identical
 :i:nthe -> in the
 iung: -> ing
 inmg: -> ing
+isnane -> insane
+isnanity -> insanity
 isntall -> install
 isntance -> instance
 instgance -> instance
@@ -209,12 +218,15 @@ isntruct -> instruct
 inmto -> into
 :inot: -> into
 :itis -> it is
+:itrat: -> iterat
 :jsut: -> just
 keyborad -> keyboard
 keybard -> keyboard
 keyboarsd -> keyboards
 keybvoard -> keyboard
+keybhoard -> keyboard
 kjeys -> keys
+kign: -> king
 knjee -> knee
 :knwo -> know
 :konw -> know
@@ -241,6 +253,7 @@ measn -> means
 mesaure -> measure
 emnts: -> ments
 mign: -> ming
+mzie: -> mize
 moduel -> module
 :monr -> morn
 mroe: -> more
@@ -276,6 +289,8 @@ piong: -> ping
 piont -> point
 poitn -> point
 possbile -> possible
+:powre -> power
+prefver -> prefer
 proejct -> project
 projkect -> project
 pythoin -> python
@@ -332,6 +347,7 @@ thimng -> thing
 thiung -> thing
 thign -> thing
 :thng -> thing
+:th:ing -> thing
 htink -> think
 thiunk -> think
 tghink -> think
@@ -381,6 +397,7 @@ whetehr -> whether
 wehther -> whether
 hwich -> which
 widht -> width
+whilie -> while
 wign: -> wing
 :wiht -> with
 :iwth -> with
