@@ -36,13 +36,13 @@ So why the fuck did I buy a 40% keyboard? An ortholinear one, no less?
 
 I'd hit a point of diminishing returns with my configuration. My setup was good, but I knew it could be better. I wanted more, but I had also reached the limits of my knowledge and capacity with the Vial software.
 
-To get to the next level, I needed to go back to school. I saw the Planck as a ticket out of my comfort zone: a masterclass in constraint-driven design; a rich tapestry of flexibility. By stripping away so many keys and adding thumb keys to (somewhat) compesnate, the Planck forces you to fundamentally reconsider the layout. Where does Enter go? Backspace? Where's the fucking right Shift? How do you remember where all the symbols are‽
+To get to the next level, I needed to go back to school. I saw the Planck as a ticket out of my comfort zone: a masterclass in constraint-driven design. By stripping away so many keys and adding thumb keys to (somewhat) compesnate, the Planck forces you to fundamentally reconsider the layout. Where does Enter go? Backspace? Where's the fucking right Shift? How do you remember where all the symbols are‽‽
 
-There are no easy answers, no one-size-fits-all solution. Not even close. The only way is a descent into the keyboard dark arts: the world of advanced QMK programming. This isn't just remapping keys, it's an entire programming language for your keyboard. We're talking tap-hold timing intricacies that let home row keys double as fast-access modifiers, leader sequences that turn your keyboard into a command center, dynamic on-the-fly custom macros, and layering schemes so complex they'd make an Inception architect's head spin. Things no sane person using a standard layout would ever want or need. The result is a layout that is custom-fitted like leather to each typist.
+There are no easy answers, no one-size-fits-all solution. Not even close. The only way is a descent into the keyboard dark arts: the world of advanced QMK programming. This isn't just remapping keys and adding layers, it's an entire programming language for your keyboard. We're talking tap-hold timing intricacies that let home row keys double as fast-access modifiers, leader sequences that turn your keyboard into a command center, dynamic on-the-fly custom macros, and layering schemes so complex they'd make an Inception architect's head spin. Things no sane person using a standard layout would ever want or need. The result is a layout that is custom-fitted like leather to each typist.
 
 It's that knowledge I was after. The Planck wasn't just a keyboard: it was an internship, a trial by fire in these dark arts. A vision quest.
 
-*Aso*, this brings us to the crux of my reasoning for buying the Planck: sometimes you have to break something so that you can build it back better and stronger. I knew going in that this would be painful. I knew I'd hate it. But to truly master the 60%, I needed to go beyond it: I needed a keyboard that would force me to rethink the basics and teach me the the art of QMK.
+And this, my friends, this is crux of my reasoning for buying the Planck: sometimes you have to break something so that you can build it back better and stronger. I knew going in that this would be painful. I knew I'd hate it. But to truly master the 60%, I needed to go beyond it: I needed a keyboard that would force me to rethink the basics and teach me the the art of QMK.
 
 And that's exactly what the Planck did.
 
@@ -61,9 +61,15 @@ Let's cover what I really liked about the Planck. It wasn't all frustrations and
 ### Thumb Keys Are the Light and the Way
 Seriously, having so many keys for my thumbs instead of one giant spacebar is fucking *brilliant*. I love it.
 
-I put a 2U spacebar on the right, since I almost exclusively use my right thumb. It was the perfect size—no more, no less than I needed. (My brief, disastrous experiment with a 1U spacebar proved that.)
+I put a 2U spacebar on the right, since I almost exclusively use my right thumb. It was the perfect size—no more, no less than I needed. (My brief, disastrous experiment with a single-wide spacebar proved that.)
 
 Anticipating a steep learning curve with a fuckton of errors, I put Backspace and Delete as left-handed thumb keys. And it was fucking *glorious*! Hands down my single favorite feature of the Planck.
+
+Think about it: your thumbs are incredibly agile and dexterous, yet on a standard keyboard one of them hits a single giant spacebar, usually in the same general spot, while the other floats around doing absolutely nothing. What a waste of real estate and talent!
+
+With a traditional Backspace, when you make a mistake, you have to lift your right hand off the home row, reach over to the Backspace key, fix the error, then return to home. It's a constant, if minor, interruption to your flow if you have fat fingers. But with Backspace under my left thumb? I could correct errors instantly without ever breaking stride. My right hand stayed planted on the home row while my left thumb handled all the cleanup. I could even hold Raise with my right thumb, right next to the Spacebar, to turn those keys into "delete next/previous word".
+
+The ergonomics are night and day better. No stretching, no reaching, no breaking your wrist position. It's one of those features that sounds minor on paper but transforms the entire typing experience once you've lived with it.
 
 Fuck a giant spacebar, why isn't this standard? And why is it so hard to find a good 60% keyboard with split spacebar support?
 
@@ -86,7 +92,7 @@ That iterative process of problem-solving and refinement? That's where the real 
 
 Which leads me into my next point...
 
-### QMK Is the Shit
+### QMK Is the Shiiiiiiiiit
 Vial is good, but getting my hands dirty with QMK was a revelation in what's possible with a simple keyboard. This is the heart of the "dark keyboard arts" I was chasing.
 
 If Vial is a moped that gets you around town, then QMK is a stripped-down Formula 1 car: insanely powerful, infinitely customizable, but demanding serious skill to master. If Vial is a Swiss Army knife, QMK is a fully-equipped machine shop where you can forge any tool you need... assuming you know how to operate a lathe.
