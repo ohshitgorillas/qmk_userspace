@@ -18,18 +18,40 @@ bool process_detected_host_os_user(os_variant_t detected_os) {
 // Leader sequences
 extern uint16_t leader_sequence[];
 void leader_end_user(void) {
-    // xcase dynamic delimiters
     if (leader_sequence[0] == KC_X && leader_sequence[1] == KC_C) {
-        uint16_t delimiter = leader_sequence[2];
-        switch (delimiter) {
-            case KC_LSFT:
-            case KC_RSFT:
-            case OS_LSFT:
-            case OS_RSFT:
-                delimiter = LSFT(leader_sequence[3]);  // Use shifted fourth key
+
+        // Check for Leader + x + c
+        uint8_t index = 2;  // Start looking at the 3rd key
+        uint16_t mods = 0;  // Store modifiers found in the sequence
+
+        // Loop to consume up to 2 modifiers (Shift and/or Alt/Opt)
+        // We limit to 2 iterations to prevent running off the end of the buffer
+        for (uint8_t i = 0; i < 2; i++) {
+            uint16_t key = leader_sequence[index];
+
+            if (key == KC_LSFT || key == KC_RSFT || key == OS_LSFT || key == OS_RSFT) {
+                mods |= QK_LSFT;
+                index++;
+            }
+            else if (key == KC_LALT || key == KC_RALT || key == KC_LOPT || key == KC_ROPT) {
+                mods |= QK_LALT;
+                index++;
+            }
+            else {
+                // Found a non-modifier key, stop looking
                 break;
+            }
         }
-        enable_xcase_with(delimiter);
+
+        // The key at the current index is our base delimiter (e.g., KC_K)
+        uint16_t raw_delimiter = leader_sequence[index];
+
+        // Ensure we actually have a key (and didn't just type "LEADER X C Shift")
+        if (raw_delimiter != KC_NO) {
+            // Combine the base key with the accumulated modifiers
+            // e.g., KC_K | QK_LSFT | QK_LALT -> Shift+Opt+K ()
+            enable_xcase_with(raw_delimiter | mods);
+        }
     }
 
     // Personal info macros
