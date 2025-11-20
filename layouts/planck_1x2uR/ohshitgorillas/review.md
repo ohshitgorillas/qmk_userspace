@@ -38,7 +38,7 @@ I'd hit a point of diminishing returns with my configuration. My setup was good,
 
 To get to the next level, I needed to go back to school. I saw the Planck as a ticket out of my comfort zone: a masterclass in constraint-driven design; a rich tapestry of flexibility. By stripping away so many keys and adding thumb keys to (somewhat) compesnate, the Planck forces you to fundamentally reconsider the layout. Where does Enter go? Backspace? Where's the fucking right Shift? How do you remember where all the symbols are‽
 
-There are no easy answers, no one-size-fits-all solution. Not even close. The only way is a descent into the keyboard dark arts: the world of advanced QMK programming. This isn't just remapping keys, it's an entire programming language for your keyboard. We're talking tap-hold timing intricacies that let home row keys double as fast-access modifiers, leader sequences that turn your keyboard into a command center, custom macros that automate repetitive tasks, and layering schemes so complex they'd make an Inception architect's head spin. Things no sane person using a standard layout would ever want or need. The result is a layout that is custom-fitted like leather to each typist.
+There are no easy answers, no one-size-fits-all solution. Not even close. The only way is a descent into the keyboard dark arts: the world of advanced QMK programming. This isn't just remapping keys, it's an entire programming language for your keyboard. We're talking tap-hold timing intricacies that let home row keys double as fast-access modifiers, leader sequences that turn your keyboard into a command center, dynamic on-the-fly custom macros, and layering schemes so complex they'd make an Inception architect's head spin. Things no sane person using a standard layout would ever want or need. The result is a layout that is custom-fitted like leather to each typist.
 
 It's that knowledge I was after. The Planck wasn't just a keyboard: it was an internship, a trial by fire in these dark arts. A vision quest.
 
@@ -91,7 +91,7 @@ Vial is good, but getting my hands dirty with QMK was a revelation in what's pos
 
 If Vial is a moped that gets you around town, then QMK is a stripped-down Formula 1 car: insanely powerful, infinitely customizable, but demanding serious skill to master. If Vial is a Swiss Army knife, QMK is a fully-equipped machine shop where you can forge any tool you need... assuming you know how to operate a lathe.
 
-I was resistant at first, sticking to the QMK Configurator and avoiding the C code... but that was a mistake. Once I dove in, I was hooked. The result is my [QMK userspace repository](https://github.com/ohshitgorillas/qmk_userspace), containing all my code, keymaps, and even a few community module contributions.
+I was resistant at first, sticking to the QMK Configurator and avoiding the C code... but that was a mistake. Once I dove in, I was hooked. The result is my [QMK userspace repository](https://github.com/ohshitgorillas/qmk_userspace), containing all my code, keymaps, and even a few community module contributions. For a detailed breakdown of the layout that resulted from this experiment, see the [layout README](README.md).
 
 This experience cemented a new rule for me: no more non-QMK keyboards. I was seriously considering a Neo60 Cu until I realized I couldn't load it with QMK. That's a dealbreaker now. Having tasted the raw power of what a keyboard *can* be, I can't go back.
 
