@@ -1,4 +1,4 @@
-# ohshitgorillas's QMK Userspace
+# ohshitgorillas's QMK Shared Code
 
 Shared code across my QMK keyboards:
 - Luminkey LX60
