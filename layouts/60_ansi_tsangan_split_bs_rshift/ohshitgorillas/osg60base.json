@@ -80,9 +80,13 @@
   ],
   [
     {
+      "a": 5,
       "w": 2.25
     },
-    "Shift",
+    "\nCaps Word\n\n\n\n\nShift",
+    {
+      "a": 7
+    },
     "Z",
     "X",
     "C",
@@ -97,10 +101,12 @@
     ">\n.",
     "?\n/",
     {
-      "a": 7,
       "w": 1.75
     },
-    "Shift",
+    "Tap Dance:\nSelect Word\n\n\n\n\nShift/",
+    {
+      "a": 7
+    },
     "Fn2"
   ],
   [

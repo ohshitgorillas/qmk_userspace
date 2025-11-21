@@ -36,7 +36,7 @@ Photos are by Discord user SolidBrain.
     - Taped up flex cuts on PCB
 
 ## Base Layer
-![Tofu60 2.0 Base Layer](tofu60-2base.png)
+![Tofu60 2.0 Base Layer](osg60base.png)
 
 **Legend**: Short dashes "-" indicate OS-specific differences, with macOS on top and Windows on bottom. Longer em-dashes "—" indicate a tap-hold configuration, with the tap function on top and hold on the bottom.
 
@@ -45,10 +45,15 @@ The base layer features:
 - Split Backspace for HHKB-like access to `\|` and `` `~ `` on the top row, moving Backspace down to above Enter.
 - A Caps Lock key that serves double duty as access to the main function layer.
 - Split right Shift for an HHKB-like `Fn2` key for access to a second function layer.
+- Caps Word (capitalize the next word only) on double tap left Shift
 - Home Row Modifiers (HRMs)
+- Tap Dance on the right Shift key which...
+    - Selects the current word on a double tap.
+    - Selects the current line on a triple tap.
+    - Acts as Shift otherwise.
 
 ## Caps Lock Layer
-![Tofu60 2.0 Caps Lock Layer](tofu60-2caps.png)
+![Tofu60 2.0 Caps Lock Layer](osg60caps.png)
 
 The Caps Lock Layer (CLL) is the primary function layer for the board, providing access to:
 - F-keys
