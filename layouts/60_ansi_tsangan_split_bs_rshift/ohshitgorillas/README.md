@@ -63,11 +63,6 @@ It also brings core features and modifiers to within reach of the left hand enti
 
 The use of the Caps Lock key here provides ergonomic and extremely fast access to the layer.
 
-Note that `TD:Shift/SelWd` is a Tap Dance key which:
-- Selects the current word on double tap.
-- Selects the current line on triple tap.
-- Acts as Shift otherwise.
-
 ### Left-Handed Features
 The CLL's primary benefit is bringing essential functions—Backspace, Enter, and Delete—within comfortable reach of the left hand. This eliminates awkward right-hand stretches and minimizes hand movement.
 
@@ -82,6 +77,11 @@ Compare this to the streamlined CLL approach:
 This method is not only faster and more comfortable, but also keeps your hands in their natural positions, dramatically reducing strain during extended typing sessions.
 
 Note that "delete previous word" uses different modifiers across operating systems: Opt+Backspace on macOS versus Ctrl+Backspace on Windows/Linux. To maintain consistent word deletion behavior with the `d` and `f` keys, the layout swaps Opt on `a` with Ctrl when switching to Windows/Linux. This change may affect other workflows, such as moving lines in VS Code, which now uses Alt on `s` instead of Opt on `a`.
+
+Note that `TD:Shift/SelWd` is a Tap Dance key which uses [Pascal Getreuer's Select Word module](https://getreuer.info/posts/keyboards/select-word/index.html):
+- Selects the current word on double tap.
+- Selects the current line on triple tap.
+- Acts as Shift otherwise.
 
 ### The Taming of Caps Lock as a Dual-Use Key
 Using Caps Lock as a fast layer-tap key while preserving its standard tap behavior presents a significant technical challenge:
@@ -159,48 +159,6 @@ Lastly, we need to disable `CHORDAL_HOLD` for the Caps Lock key, otherwise this 
 
 That's it! Now your Caps Lock key functions perfectly both on tap and extremely fast holds.
 
-### Leader Sequences: Go to...
-The following leader key sequences open or bring focus to the following apps:
-
-- Q: WeChat
-- W: WhatsApp
-- T: Microsoft Teams
-- A: Safari (for Android messaging over the web)
-- S: Signal
-- D: Discord
-- F: Finder
-- Z: Outlook
-- X: Terminal
-- C: Cursor
-- B: Browser
-- N: Calculator
-- M: HQPlayer Client (music)
-
-### Leader Sequences: Personal Information
-The following leader key sequences print my personal information:
-
-- P, E, M: personal email
-- P, P, H: personal phone number
-- W, E, M: work email
-- W, P, H: work phone number
-- A, D, D, R: my street address
-- O, S, G: my DDNS address
-
-### Leader Sequences: xcase
-The following leader sequences activate xcase, which replaces spaces with a given delimiter (see https://github.com/ohshitgorillas/qmk-xcase).
-
-- C, C: camelCase
-- S, C: snake_case
-- K, C: kebab-case
-- X, C, any: uses the third character entered as a dynamic delimiter; e.g., "X, C, /" replaces/spaces/with/slashes
-
-### SpongeMock Mode
-The keyboard contains a QMK module called SpongeMock, which randOMlY CaPitaliZEs leTtERs to MimiC tHE sPONGEBob MOckING mEme. This is accessed via the Leader sequence S, M.
-
-### Autocorrect Mode
-The keyboard contains a custom autocorrect dictionary and autocorrect mode that can be toggled via the leader sequence A, C.
-
-
 ## HHKB-style Layer
 ![Tofu60 2.0 HHKB-Style Layer](tofu60-2fn.png)
 
@@ -210,3 +168,54 @@ This layer is a modified version of the traditional HHKB function layer. While t
 - The 'Leader' key has been assigned to the Tab position.
 
 In practice, this layer sees far less use than the Caps Lock Layer. The CLL above proves far more ergonomic and accessible for most tasks. However, this layer remains valuable for single-handed navigation scenarios, right-handed access to Delete, and provides easier access to lower (left-handed) F-keys compared to using Caps Lock as the modifier.
+
+## Leader Sequences
+I use the following Leader sequences on my keyboard:
+
+### Leader: Go to...
+The following leader key sequences open or bring focus to the following apps:
+
+- `Q`: WeChat
+- `W`: WhatsApp
+- `T`: Microsoft Teams
+- `A`: Safari (for Android messaging over the web)
+- `S`: Signal
+- `D`: Discord
+- `F`: Finder
+- `Z`: Outlook
+- `X`: Terminal
+- `C`: Cursor
+- `B`: Browser
+- `N`: Calculator
+- `M`: HQPlayer Client (music)
+
+### Leader: Personal Information
+The following leader key sequences print my personal information:
+
+- `P`, `E`, `M`: personal email
+- `P`, `P`, `H`: personal phone number
+- `W`, `E`, `M`: work email
+- `W`, `P`, `H`: work phone number
+- `A`, `D`, `D`, `R`: my street address
+- `O`, `S`, `G`: my DDNS address
+
+### Leader: xcase
+The following leader sequences activate xcase, which replaces spaces with a given delimiter (see https://github.com/ohshitgorillas/qmk-xcase).
+
+- `C`, `C`: camelCase
+- `S`, `C`: snake_case
+- `K`, `C`: kebab-case
+- `X`, `C`, any: uses the third character entered as a dynamic delimiter; e.g., "`X`, `C`, `/`" replaces/spaces/with/slashes
+
+### Leader: Autocorrect Mode
+The keyboard contains a custom autocorrect dictionary and autocorrect mode that can be toggled via the leader sequence `A`, `C`.
+
+### Leader: Meme Features
+Last but not least, the keyboard contains a few meme features.
+
+First is a QMK module called SpongeMock, which randOMlY CaPitaliZEs leTtERs to MimiC tHE sPONGEBob MOckING mEme. This is accessed via the Leader sequence `S`, `M`.
+
+Furthermore, the following leader sequences generate the given memes:
+- `N`, `S`: Navy Seal copypasta
+- `R`, `D`: Chronicles of Riddick copypasta
+- `R`, `R`: Rickroll URL.
