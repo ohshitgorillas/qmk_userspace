@@ -1,6 +1,6 @@
 # Planck rev7 Ortholinear 40% Keyboard: A Review
 
-I used the Planck keyboard for three weeks. Here are my unfiltered thoughts.
+**tl;dr:** As a die-hard 60% user, I spent three weeks with a 40% ortholinear Planck as a self-imposed "internship" to master the advanced features of QMK that my preferred layout demanded. The good: thumb keys are a revelation, Home Row Mods are a massive ergonomic win, and diving deep into QMK is an incredibly powerful and rewarding experience. The bad: the learning curve is brutal, the mental overhead for daily coding is exhausting, and the build quality is aggressively just okay. While I'm happily returning to my 60% boards, the Planck was an invaluable, if occasionally infuriating, teacher that gave me the skills I was after.
 
 ![Planck rev7](planck.jpg)
 
