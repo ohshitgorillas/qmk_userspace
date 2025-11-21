@@ -10,3 +10,4 @@
 #define PERSONAL_PHONE "7852153300"
 #define PERSONAL_ADDRESS "1128 2nd St, #304"
 #define PERSONAL_DOMAIN "ohshitgorillas.mgomez.ch"
+#define IP_SUBNET "2601:204:e600:2150:"

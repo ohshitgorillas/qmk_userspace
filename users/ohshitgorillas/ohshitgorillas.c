@@ -64,18 +64,18 @@ void leader_end_user(void) {
 
     // Personal info macros
     else if (leader_sequence_two_keys(KC_M, KC_E)) { SEND_STRING("ohshitgorillas"); }
-    else if (leader_sequence_four_keys(KC_A, KC_D, KC_D, KC_R)) { SEND_STRING(PERSONAL_ADDRESS); }
+    else if (leader_sequence_two_keys(KC_I, KC_P)) { SEND_STRING(IP_SUBNET); }
     else if (leader_sequence_three_keys(KC_P, KC_E, KC_M)) { SEND_STRING(PERSONAL_EMAIL); }
     else if (leader_sequence_three_keys(KC_W, KC_E, KC_M)) { SEND_STRING(WORK_EMAIL); }
     else if (leader_sequence_three_keys(KC_P, KC_P, KC_H)) { SEND_STRING(PERSONAL_PHONE); }
     else if (leader_sequence_three_keys(KC_W, KC_P, KC_H)) { SEND_STRING(WORK_PHONE); }
     else if (leader_sequence_three_keys(KC_O, KC_S, KC_G)) { SEND_STRING(PERSONAL_DOMAIN); }
+    else if (leader_sequence_four_keys(KC_A, KC_D, KC_D, KC_R)) { SEND_STRING(PERSONAL_ADDRESS); }
 
     // copypastas
     else if (leader_sequence_two_keys(KC_N, KC_S)) { SEND_STRING(NAVY_SEAL); }
     else if (leader_sequence_two_keys(KC_R, KC_R)) { SEND_STRING(RICKROLL); }
     else if (leader_sequence_two_keys(KC_R, KC_D)) { SEND_STRING(RIDDICK); }
-
 
     // Go-to app shortcuts (single key)
     else if (leader_sequence_one_key(KC_Q)) { tap_code16(LCG(KC_F23)); }   // WeChat
