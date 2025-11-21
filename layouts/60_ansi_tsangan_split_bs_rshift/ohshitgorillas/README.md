@@ -6,6 +6,8 @@ It's used for two of my four keyboards:
 - Luminkey LX60
 - KBDfans Tofu60 2.0
 
+Photos are by Discord user SolidBrain.
+
 ### Luminkey LX60 Copper Edition
 ![Luminkey LX60 Copper Edition](lx60.png)
 
