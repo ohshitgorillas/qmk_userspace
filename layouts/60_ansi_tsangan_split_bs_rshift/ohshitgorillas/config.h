@@ -5,7 +5,7 @@
 
 // tap-hold
 #define CHORDAL_HOLD
-#define FLOW_TAP_TERM 150
+#define FLOW_TAP_TERM 100
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 #define TAPPING_TERM_PER_KEY
 #define RETRO_TAPPING_PER_KEY
