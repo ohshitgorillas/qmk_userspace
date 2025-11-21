@@ -155,13 +155,13 @@ While its weight, or lack thereof, is a huge plus for portability, it feels flim
 This whole experiment was about pushing my boundaries and seeing what was on the other side. The Planck was a difficult, frustrating, and ultimately invaluable teacher. Here's what I'm taking with me:
 
 ### The Power of QMK
-QMK is not just about remapping keys and layers: it's a fundamental reimagining of what a keyboard can do. It's about transforming a static input device into a dynamic partner that you can teach to handle your most common and tedious tasks. It's about outsourcing the boring parts of typing to your keyboard's firmware so your brain can focus on what matters.
+QMK is not just about remapping keys and layers. It's not just having your keyboard arrange the modifiers properly based on what operating system it's booting into. It's a fundamental reimagining of what a keyboard can do. It's about transforming a static input device into a dynamic partner that you can teach to handle your most common and tedious tasks. It's about outsourcing the boring parts of typing to your keyboard's firmware so your brain can focus on what matters.
 
-Take the Leader key. I've taught my keyboard my personal and work email addresses. Now, instead of typing them out, I just hit `Leader` `P` `E` `M`, and the keyboard does it for me. I've even taught it how to tOgGle aUToMated spONGEBOB mOckiNg TExt mOdE (`Leader` `S` `M`), because why the fuck not?
+Take the Leader key. I've taught my keyboard my personal and work email addresses. Now, instead of typing them out, I just hit `Leader` `(P/W)` `E` `M`, and the keyboard does it for me. I've even taught it how to tOgGle aUToMated spONGEBOB mOckiNg TExt mOdE (`Leader` `S` `M`), because why the fuck not?
 
 This extends to automating common formatting. With my [implementation of xcase](https://github.com/ohshitgorillas/qmk-xcase), I can tell my keyboard to turn spaces into underscores, hyphens, or any other character on the fly. Need to type an obnoxiously long file path? `Leader` `X` `C` `/`, and suddenly all/of/my/spaces/turn/into/slashes.
 
-And finally, there's error correction. With autocorrect running at the firmware level, my keyboard knows I'm a dumbass who types 'teh' a dozen times a day and just fixes it for me, everywhere.
+And finally, there's user-defined automatic typo correction. With autocorrect running at the firmware level, my keyboard knows I'm a dumbass who types 'teh' a dozen times a day and just fixes it for me, everywhere. You know what's even better than a thumb Backspace? *Not needing to backspace at all.*
 
 *That's* the real power of QMK. It’s a toolkit for building a keyboard that becomes a true extension of your own mind—one that anticipates your needs and handles the grunt work for you.
 
@@ -177,7 +177,7 @@ This is a genuine revelation and one of those 'out of the box' ideas that I may 
 
 For those who are unfamiliar, here's the gist. Each of your eight home keys (`ASDF` and `JKL;`) has two jobs: when you tap it, it prints the character; when you hold it, it acts as a modifier. For my keyboards, `A` and `;` are Ctrl, `S` and `L` are Opt, `D` and `K` are Cmd, and `F` and `J` are Shift.
 
-If this sounds like a horrific idea that would interrupt your typing flow constantly... you're not wrong. Getting the timing right requires some finesse—your keyboard needs to reliably distinguish between a tap and a hold. For Ctrl, Opt, and Cmd, this is relatively straightforward. Shift, however, is a different beast and entirely dependent on how you type. Since Shift is used so frequently mid-typing flow (for capitals, symbols, etc.), the timing requirements for a home row Shift become incredibly precise. Unless you're willing to invest significant time fine-tuning the settings to match your exact typing rhythm and speed, I'd recommend avoiding Shift as a Home Row Mod except for consistency with chording.
+If this sounds like a horrific idea that would interrupt your typing flow constantly... you're not wrong. Getting the timing right requires some finesse—your keyboard needs to reliably distinguish between a tap and a hold. For Ctrl, Opt, and Cmd (or Alt and Win, as you will), this is relatively straightforward. Shift, however, is a different beast and entirely dependent on how you type. Since Shift is used so frequently mid-typing flow (for capitals, symbols, etc.), the timing requirements for a home row Shift become incredibly precise. Unless you're willing to invest significant time fine-tuning the settings to match your exact typing rhythm and speed, I'd recommend avoiding Shift as a Home Row Mod except for consistency with chording.
 
 Even ignoring Shift, think about how often you use modifiers. Every copy, paste, and shortcut requires you to contort your fingers into an unnatural position to reach Ctrl or Cmd. Home Row Mods eliminate that entirely. The modifiers are already right under your fingers at all times. Instead of reaching down for Command with one hand and tapping `C` with the other, I just hold `K` and tap `C`. It's faster, more comfortable, and dramatically reduces hand strain. It's one of those changes that feels so right, you'll wonder how you ever tolerated the old way.
 
@@ -191,7 +191,7 @@ The keycaps are starting to smooth out, but are still in good shape.
 And I'm a big fan of MT3. The scooping is super comfy. And honestly? The profile makes the shine less of an issue for me. I think it's the fact that the scooping gives the key some texture regardless of shining. I could see myself running a set of MT3 ABS until I could see my own reflection in them. I'd still prefer to see Drop offer more MT3 in PBT, but I'm no longer an absolutist.
 
 ### 60% is My Home
-This experiment solidified it for me. The Planck was a fun, educational, and occasionally infuriating detour, but 60% is where I belong. I need my number keys, and I need a layout that doesn't make me feel like I'm solving a fucking puzzle to type a fucking backslash.
+This experiment solidified it for me. The Planck was a fun, educational, and occasionally infuriating detour, but 60% is where I belong. I need my number keys, and I need a layout that doesn't make me feel like I'm solving a fucking puzzle to type a backslash.
 
 The Planck, again, was a vision quest. It forced me to learn, adapt, and master new skills. It taught me the true power of QMK and revealed the ergonomic benefits of Home Row Mods, as well as how to master tap-hold timing for the Caps Lock key. I'm returning to my 60% boards not because the Planck was bad, but because it succeeded in giving me the knowledge I needed to break out of my rut and make my preferred layout even better (the current state of which can be found [here](../../../layouts/60_ansi_tsangan_split_bs_rshift/ohshitgorillas/README.md)). I'm glad to be back, but I'm also grateful for the journey.
 
