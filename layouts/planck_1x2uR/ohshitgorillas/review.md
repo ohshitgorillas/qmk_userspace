@@ -38,7 +38,7 @@ So why did I buy a 40% keyboard? An ortholinear one, no less? No, seriously, why
 
 To the wider world, where to find the "missing" keys on a 60% layout is a solved problem with several freely available solutions. Take the HHKB-style arrow keys (`[;'/`), accessed via a Function key made from splitting right Shift. This "solution" always felt like a compromise to me. It forces an awkward reach for the pinky to anchor on the Fn key, then requires you to pivot your hand to hit the arrows. Need Page Up? That's an even deeper, more strained reach, all while your pinky is held hostage.
 
-If the goal is maximizing speed and ergonomics, this ain't it.
+If the goal of stepping down to 60% to save desk space, or for the aesthetics of the 60% sort-of symmetry, that may be a workable solution; but if the goal is maximizing speed and ergonomics, this ain't it.
 
 I (and many others also) figured that a better solution was hiding in plain sight on the *other side of the board*: the prime, underutilized real estate of the dumbfuck Caps Lock key. By turning it into a layer key instead, I could get true home-row navigation with `IJKL` with no pinky strain. That simple idea quickly snowballed. I pulled in other essentials like Backspace, Delete, Enter, and modifiers to where I could reach with my left hand, building an entire layer that was not just a workaround for missing keys, but a genuine ergonomic upgrade over the standard positions of many keys I *did* have. I almost never, for example, use my dedicated Backspace key anymore: Caps Lock + `d` for Backspace is faster and more ergonomic.
 
