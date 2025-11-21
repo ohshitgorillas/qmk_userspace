@@ -28,13 +28,7 @@
       "a": 5
     },
     "Com-\n\n\n\n\n\npose",
-    {
-      "a": 7
-    },
-    "Ctrl",
-    {
-      "a": 5
-    },
+    "Ctrl\nWin\n\n\n\n\n-",
     "TD:\nSelWd\n\n\n\n\nShift/",
     {
       "a": 7
@@ -72,10 +66,14 @@
     },
     "",
     {
-      "c": "#cccccc"
+      "c": "#cccccc",
+      "a": 5
     },
-    "Opt",
-    "Cmd",
+    "Opt\nCtrl\n\n\n\n\n-",
+    "Cmd\nAlt\n\n\n\n\n-",
+    {
+      "a": 7
+    },
     "Bksp",
     {
       "n": true

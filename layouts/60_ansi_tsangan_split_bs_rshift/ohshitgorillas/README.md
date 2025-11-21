@@ -47,10 +47,6 @@ The base layer features:
 - Split right Shift for an HHKB-like `Fn2` key for access to a second function layer.
 - Caps Word (capitalize the next word only) on double tap left Shift
 - Home Row Modifiers (HRMs)
-- Tap Dance on the right Shift key which...
-    - Selects the current word on a double tap.
-    - Selects the current line on a triple tap.
-    - Acts as Shift otherwise.
 
 ## Caps Lock Layer
 ![Tofu60 2.0 Caps Lock Layer](osg60caps.png)
@@ -67,6 +63,10 @@ It also brings core features and modifiers to within reach of the left hand enti
 
 The use of the Caps Lock key here provides ergonomic and extremely fast access to the layer.
 
+Note that `TD:Shift/SelWd` is a Tap Dance key which:
+- Selects the current word on double tap.
+- Selects the current line on triple tap.
+- Acts as Shift otherwise.
 
 ### Left-Handed Features
 The CLL's primary benefit is bringing essential functions—Backspace, Enter, and Delete—within comfortable reach of the left hand. This eliminates awkward right-hand stretches and minimizes hand movement.
@@ -80,6 +80,8 @@ Compare this to the streamlined CLL approach:
 - Hold `a` (macOS: Opt, Windows: Ctrl) and tap `d` (Backspace)
 
 This method is not only faster and more comfortable, but also keeps your hands in their natural positions, dramatically reducing strain during extended typing sessions.
+
+Note that "delete previous word" uses different modifiers across operating systems: Opt+Backspace on macOS versus Ctrl+Backspace on Windows/Linux. To maintain consistent word deletion behavior with the `d` and `f` keys, the layout swaps Opt on `a` with Ctrl when switching to Windows/Linux. This change may affect other workflows, such as moving lines in VS Code, which now uses Alt on `s` instead of Opt on `a`.
 
 ### The Taming of Caps Lock as a Dual-Use Key
 Using Caps Lock as a fast layer-tap key while preserving its standard tap behavior presents a significant technical challenge:

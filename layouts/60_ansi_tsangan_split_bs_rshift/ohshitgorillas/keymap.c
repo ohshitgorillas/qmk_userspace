@@ -48,20 +48,20 @@ tap_dance_action_t tap_dance_actions[] = {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
         // macOS main layer
-        KC_ESC,        KC_1,         KC_2,         KC_3,         KC_4,         KC_5,   KC_6,   KC_7,         KC_8,         KC_9,         KC_0,            KC_MINS, KC_EQL,      KC_BSLS, KC_GRAVE,
-        KC_TAB,        KC_Q,         KC_W,         KC_E,         KC_R,         KC_T,   KC_Y,   KC_U,         KC_I,         KC_O,         KC_P,            KC_LBRC, KC_RBRC,     KC_BSPC,
-        LT(2,KC_CAPS), LCTL_T(KC_A), LALT_T(KC_S), LCMD_T(KC_D), LSFT_T(KC_F), KC_G,   KC_H,   RSFT_T(KC_J), RCMD_T(KC_K), ROPT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT,              KC_ENT,
-        KC_LSFT,       KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,   KC_N,   KC_M,         KC_COMM,      KC_DOT,       KC_SLSH,                  TD(TD_SELW), MO(4),
-        KC_LCTL,       KC_LOPT,      KC_LCMD,                                                  KC_SPC,                                                    KC_RCMD, KC_ROPT,     KC_RCTL
+        KC_ESC,        KC_1,         KC_2,         KC_3,         KC_4,         KC_5,   KC_6,   KC_7,         KC_8,         KC_9,         KC_0,            KC_MINS, KC_EQL,  KC_BSLS, KC_GRAVE,
+        KC_TAB,        KC_Q,         KC_W,         KC_E,         KC_R,         KC_T,   KC_Y,   KC_U,         KC_I,         KC_O,         KC_P,            KC_LBRC, KC_RBRC, KC_BSPC,
+        LT(2,KC_CAPS), LCTL_T(KC_A), LALT_T(KC_S), LCMD_T(KC_D), LSFT_T(KC_F), KC_G,   KC_H,   RSFT_T(KC_J), RCMD_T(KC_K), ROPT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT,          KC_ENT,
+        KC_LSFT,       KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,   KC_N,   KC_M,         KC_COMM,      KC_DOT,       KC_SLSH,                  KC_RSFT, MO(4),
+        KC_LCTL,       KC_LOPT,      KC_LCMD,                                                  KC_SPC,                                                    KC_RCMD, KC_ROPT, KC_RCTL
     ),
 
     [1] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
         // Windows/Linux main layer
-        KC_ESC,        KC_1,         KC_2,         KC_3,         KC_4,         KC_5,   KC_6,   KC_7,         KC_8,         KC_9,         KC_0,            KC_MINS, KC_EQL,      KC_BSLS, KC_GRAVE,
-        KC_TAB,        KC_Q,         KC_W,         KC_E,         KC_R,         KC_T,   KC_Y,   KC_U,         KC_I,         KC_O,         KC_P,            KC_LBRC, KC_RBRC,     KC_BSPC,
-        LT(3,KC_CAPS), LCTL_T(KC_A), LALT_T(KC_S), LWIN_T(KC_D), LSFT_T(KC_F), KC_G,   KC_H,   RSFT_T(KC_J), RWIN_T(KC_K), RALT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT,              KC_ENT,
-        KC_LSFT,       KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,   KC_N,   KC_M,         KC_COMM,      KC_DOT,       KC_SLSH,                  TD(TD_SELW), MO(4),
-        KC_LCTL,       KC_LWIN,      KC_LALT,                                                  KC_SPC,                                                    KC_RALT, KC_RWIN,     KC_RCTL
+        KC_ESC,        KC_1,         KC_2,         KC_3,         KC_4,         KC_5,   KC_6,   KC_7,         KC_8,         KC_9,         KC_0,            KC_MINS, KC_EQL,  KC_BSLS, KC_GRAVE,
+        KC_TAB,        KC_Q,         KC_W,         KC_E,         KC_R,         KC_T,   KC_Y,   KC_U,         KC_I,         KC_O,         KC_P,            KC_LBRC, KC_RBRC, KC_BSPC,
+        LT(3,KC_CAPS), LCTL_T(KC_A), LALT_T(KC_S), LWIN_T(KC_D), LSFT_T(KC_F), KC_G,   KC_H,   RSFT_T(KC_J), RWIN_T(KC_K), RALT_T(KC_L), RCTL_T(KC_SCLN), KC_QUOT,          KC_ENT,
+        KC_LSFT,       KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,   KC_N,   KC_M,         KC_COMM,      KC_DOT,       KC_SLSH,                  KC_RSFT, MO(4),
+        KC_LCTL,       KC_LWIN,      KC_LALT,                                                  KC_SPC,                                                    KC_RALT, KC_RWIN, KC_RCTL
     ),
 
     [2] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
