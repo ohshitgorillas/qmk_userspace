@@ -2,6 +2,7 @@
 #include "secrets.h"
 #include "xcase.h"
 #include "spongemock.h"
+#include "memes.h"
 
 // OS Awareness
 // macOS/iOS uses layer 0, everything else uses layer 1
@@ -29,17 +30,24 @@ void leader_end_user(void) {
         for (uint8_t i = 0; i < 2; i++) {
             uint16_t key = leader_sequence[index];
 
-            if (key == KC_LSFT || key == KC_RSFT || key == OS_LSFT || key == OS_RSFT) {
-                mods |= QK_LSFT;
-                index++;
-            }
-            else if (key == KC_LALT || key == KC_RALT || key == KC_LOPT || key == KC_ROPT) {
-                mods |= QK_LALT;
-                index++;
-            }
-            else {
-                // Found a non-modifier key, stop looking
-                break;
+            switch (key) {
+                case KC_LSFT:
+                case KC_RSFT:
+                case OS_LSFT:
+                case OS_RSFT:
+                    mods |= QK_LSFT;
+                    index++;
+                    break;
+                case KC_LALT:
+                case KC_RALT:
+                case OS_LALT:
+                case OS_RALT:
+                    mods |= QK_LALT;
+                    index++;
+                    break;
+                default:
+                    // Found a non-modifier key, stop looking
+                    break;
             }
         }
 
@@ -62,6 +70,12 @@ void leader_end_user(void) {
     else if (leader_sequence_three_keys(KC_P, KC_P, KC_H)) { SEND_STRING(PERSONAL_PHONE); }
     else if (leader_sequence_three_keys(KC_W, KC_P, KC_H)) { SEND_STRING(WORK_PHONE); }
     else if (leader_sequence_three_keys(KC_O, KC_S, KC_G)) { SEND_STRING(PERSONAL_DOMAIN); }
+
+    // copypastas
+    else if (leader_sequence_two_keys(KC_N, KC_S)) { SEND_STRING(NAVY_SEAL); }
+    else if (leader_sequence_two_keys(KC_R, KC_R)) { SEND_STRING(RICKROLL); }
+    else if (leader_sequence_two_keys(KC_R, KC_D)) { SEND_STRING(RIDDICK); }
+
 
     // Go-to app shortcuts (single key)
     else if (leader_sequence_one_key(KC_Q)) { tap_code16(LCG(KC_F23)); }   // WeChat
