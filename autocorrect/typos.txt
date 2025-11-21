@@ -4,6 +4,7 @@ activbate -> activate
 :atcually -> actually
 :agian -> again
 :laso: -> also
+alwasy -> always
 anaylsis -> analysis
 analyhsis -> analysis
 :annd: -> and
@@ -13,6 +14,7 @@ analyhsis -> analysis
 :abd: -> and
 :abnd: -> and
 :andn: -> and
+:asnd: -> and
 :andone -> and one
 :andteh -> and the
 :andthe -> and the
@@ -67,11 +69,13 @@ cosntant -> constant
 constnat -> constant
 cotnain -> contain
 correcdt -> correct
+:depeer -> deeper
 idsaster -> disaster
 doies -> does
 odesn't -> doesn't
 doin't -> don't
 dion't -> don't
+doubel -> double
 :dwon: -> down
 :eigth -> eight
 eitehr -> either
