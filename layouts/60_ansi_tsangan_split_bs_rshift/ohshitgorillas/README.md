@@ -14,9 +14,9 @@ Photos are by Discord user SolidBrain.
 - **Color**: Anodized green w/ copper accent bar
 - **Keycaps**: CannonKeys British Racing Green
 - **Artisan**: Gary Green Jasper by KeycapQuarry
-- **Switches**: Invokeys Matcha Reserve
+- **Switches**: Invokeys Matcha Reserve / SB: Gateron Milky Yellow Pro
 - **Plate**: PP
-- **Mounting**: 30A O-ring
+- **Mounting**: 45A GraveShift O-ring
 - **Foams**: None
 - **Mods**:
     - **Feet**: Herbie's Grungebuster pads w/ adhesive
@@ -27,7 +27,7 @@ Photos are by Discord user SolidBrain.
 
 - **Color**: E-Coating Black
 - **Keycaps**: Geekark Black-on-Black
-- **Switches**: HMX Retro R
+- **Switches**: HMX Retro J / SB: HMX Heavy Tactile
 - **Plate**: PC
 - **Mounting**: Silicon socks
 - **Foams**: None
