@@ -1,4 +1,11 @@
 CompileFlags:
-  Add: [-Wno-unknown-attributes, -Wno-maybe-uninitialized, -Wno-unknown-warning-option]
+  Add:
+    - -Wno-unknown-attributes
+    - -Wno-maybe-uninitialized
+    - -Wno-unknown-warning-option
+    - -I/Users/atom/qmk
+    - -I/Users/atom/qmk/quantum
+    - -I/Users/atom/qmk/tmk_core
+    - -I/Users/atom/qmk/platforms
   Remove: [-W*, -mmcu=*, -mcpu=*, -mfpu=*, -mfloat-abi=*, -mno-unaligned-access, -mno-thumb-interwork, -mcall-prologues, -D__has_include*]
   Compiler: clang
