@@ -72,10 +72,12 @@ void leader_end_user(void) {
     else if (leader_sequence_three_keys(KC_O, KC_S, KC_G)) { SEND_STRING(PERSONAL_DOMAIN); }
     else if (leader_sequence_four_keys(KC_A, KC_D, KC_D, KC_R)) { SEND_STRING(PERSONAL_ADDRESS); }
 
-    // copypastas
-    else if (leader_sequence_two_keys(KC_N, KC_S)) { SEND_STRING(NAVY_SEAL); }
+    // meme features
+    else if (leader_sequence_two_keys(KC_N, KC_S)) { SEND_STRING(NAVY_SEAL);}
     else if (leader_sequence_two_keys(KC_R, KC_R)) { SEND_STRING(RICKROLL); }
     else if (leader_sequence_two_keys(KC_R, KC_D)) { SEND_STRING(RIDDICK); }
+    else if (leader_sequence_two_keys(KC_S, KC_M)) { toggle_spongemock(); }
+    else if (leader_sequence_three_keys(KC_G, KC_N, KC_U)) { SEND_STRING(LINUX); }
 
     // Go-to app shortcuts (single key)
     else if (leader_sequence_one_key(KC_Q)) { tap_code16(LCG(KC_F23)); }   // WeChat
@@ -99,9 +101,6 @@ void leader_end_user(void) {
 
     // autocorrect toggle
     else if (leader_sequence_two_keys(KC_A, KC_C)) { autocorrect_toggle(); }
-
-    // sPOnGebob mOCkING tExt ToGGle
-    else if (leader_sequence_two_keys(KC_S, KC_M)) { toggle_spongemock(); }
 }
 
 
