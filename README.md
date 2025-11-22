@@ -10,10 +10,14 @@ I use a shared layout for my two 60% boards. You can find detailed information a
 | Luminkey LX60 Copper Edition| KBDfans Tofu60 2.0 |
 | :---: | :---: |
 | ![Luminkey LX60 Copper Edition](layouts/60_ansi_tsangan_split_bs_rshift/ohshitgorillas/lx60.png) | ![Tofu60 2.0](layouts/60_ansi_tsangan_split_bs_rshift/ohshitgorillas/tofu60-2.png) |
-| Green Anodized w/ Copper accent | E-Coated Black |
+| Green Anodized w/ Copper accent | E-Coating Black |
 | CannonKeys British Racing Green Keycaps | Geekark Black-on-Black Keycaps |
-| Invokeys Matcha Reserve Switches | HMX Retro R Switches |
-| PP Plate | PC Plate |
+| Invokeys Matcha Reserve Switches<br>Spacebar: Gateron Milky Yellow Pro | HMX Retro J Switches<br>Spacebar: HMX Heavy Tactile |
+| Copper Plate (Geon 60He) | PC Plate |
+| 45A O-Ring Mounted | Silicon Sock Mounted |
+| Foamless | Foamless |
+
+Photos by Discord user SolidBrain.
 
 ### Layout Philosophy & Features
 
