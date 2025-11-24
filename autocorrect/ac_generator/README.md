@@ -13,18 +13,18 @@ While created with English in mind, this could easily be adapted to other langua
 Generates the following types of typos from the supplied word list:
 - **Transpositions**: Swaps adjacent characters (e.g., `word` -> `wrod`).
 - **Deletions**: Removes single characters from words >=4 chars (e.g., `because` -> `becuse`).
-- **Key Replacements**: Replaces a character with an adjacent key (e.g., `apple` -> `applw` via `e->w` map).
-- **Extra Letters**: Inserts adjacent keys before/after target letters (e.g., `apple` -> `applew` and `applwe` via `e->w`).
+- **Replacements**: Replaces a character with an adjacent key (e.g., `apple` -> `applw` via `e->w` map).
+- **Insertions**: Inserts adjacent keys before/after target letters (e.g., `apple` -> `applew` and `applwe` via `e->w`).
 
 Other features:
 - **Intelligent Boundaries**: Automatically adds QMK boundary markers (`:typo`, `typo:`, `:typo:`) to prevent typos from triggering inside larger words (e.g., prevents `no` -> `on` from triggering inside `noon`).
 - **Adjustable Collision Resolution**: If a typo maps to multiple valid words (e.g., `thn` could be `then` or `than`), it uses a frequency data to pick the statistically likely correction or discards it if ambiguous (`then` and `than` have a frequency ratio close to 1, so the typo is considered ambiguous and is discarded). Users may adjust the frequency ratio used to select or discard the typo.
 - **Pattern Generalization**: Consolidates repetitive suffix/prefix errors into wildcard rules (e.g., `*in:` -> `*ing`) to save firmware space.
-- **Personalizable and Adjustable**: Specify words you (don't) want corrected and replacement/extra letter combos you specifically struggle with.
+- **Personalizable and Adjustable**: Specify words you do or don't want corrected and replacement/insertion combos you specifically struggle with.
 
 ## Installation
 
-This script relies on `wordfreq` for frequency analysis and `english-words` for validation.
+This script relies on `wordfreq` for frequency analysis and `english-words` for validation (use of `wordfreq` for additional validation is optional).
 
 ```bash
 # Recommended: Install inside your QMK virtual environment
@@ -36,7 +36,7 @@ pip install wordfreq english-words
 The script outputs to `stdout` by default, or to a file if `-o` is specified.
 
 ```bash
-# Generate corrections for the top 1000 most common English words
+# Generate transposition and deletion typos for the top 1000 most common English words
 python autocorrgen.py --top-n 1000 -o autocorrect.txt
 
 # Generate QMK source code from the text output
@@ -46,19 +46,19 @@ qmk generate-autocorrect-data autocorrect.txt
 ## Usage Examples
 
 **Using a custom word list:**
-Use `--include` to process specific words instead of (or in addition to) the top-N list. The following command generates transpositions and deletions for everything in `my_words.txt` only.
+Use `--include` to process a list of specific words in addition to (or instead of) the top-N list. The following command generates transpositions and deletions for everything in `my_words.txt` only.
 ```bash
 python3 autocorrgen.py --include my_words.txt -o autocorrect.txt
 ```
 
 **Using Adjacent Key Mapping:**
-The following command generates transposition, deletion, insertion, and replacement typos from the 500 most frequent words based on the provided adjacent key file.
+The following command generates transposition, deletion, insertion, and replacement typos from the 500 most frequent words. Replacements and insertions are based on the key combos provided in `adjacent_keys.txt`.
 ```bash
 python3 autocorrgen.py --top-n 500 --adjacent-letters adjacent_keys.txt -o autocorrect.txt
 ```
 
 **Using Exclusions and Strict Frequency:**
-Generate transposition and deletion typos for the 2000 most frequent words, except those in `exclusions.txt`. If the typo occurs as a substring of a word with a frequency above 1e-7 in `wordfreq`, skip it.
+Generate transposition and deletion typos for the 2000 most frequent words except those in `exclusions.txt`. If the typo occurs as a substring of a word with a frequency above 1e-7 in `wordfreq`, skip it.
 ```bash
 python3 autocorrgen.py \
     --top-n 2000 \
@@ -70,7 +70,7 @@ python3 autocorrgen.py \
 Using `--typo-freq-threshold` is recommended for catching conjugations and other transformations, slang, etc. For example, `juts`—a form of the verb "jut" meaning to "extend out, over, or beyond the main body or line of something", but also a transposition of `just`—does not occur in `english-words` (only `jut`), but does occur in `wordfreq` with a frequency of 2.29e-7.
 
 ### A Note on Dictionary Size
-The QMK Autocorrect dictionary is currently limited in size to somewhere between 4,000-5,000 corrections, depending somewhat on the corrections themselves. It may require some iteration to find the right combination of `--top-n`, `--max-length`, and `--adjacent-letters` to maximize the size of your personal dictionary.
+The QMK Autocorrect dictionary is currently limited in size to somewhere between 4,000-5,000 corrections, depending somewhat on the corrections themselves; what fits on your keyboard may be significantly smaller (I can only get about 1,100 on mine). It may require some iteration to find the right combination of `--top-n`, `--max-length`, and `--adjacent-letters` to maximize the size of your personal dictionary.
 
 ## Command Line Arguments
 
