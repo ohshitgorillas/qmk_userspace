@@ -87,7 +87,7 @@ The QMK Autocorrect dictionary is currently limited in size to somewhere between
 | :--- | :--- | :--- |
 | `--max-word-length` | `10` | Max length of source words to process. |
 | `--min-word-length` | `3` | Minimum length of source word. |
-| `--min-typo-length` | `4` | Minimum length of the generated typo to be included. QMK will complain at 4-character typos, but I find them generally safe. |
+| `--min-typo-length` | `5` | Minimum length of the generated typo to be included. QMK will generate warnings for typos shorter than 5 characters.
 | `--freq-ratio` | `10.0` | If a typo matches two words, the winner must be N times more frequent, otherwise the typo is discarded. For example, both `open` and `one` can produce `oen`, and `one` is 9.77 times more frequent than `open`. If set to <9.77, this would include the typo `oen -> one` in the output. |
 | `--typo-freq-threshold`| `0.0` | If a generated typo appears in real usage (frequency > N), discard it. Try values around `1e-6` to `1e-8`.|
 

@@ -800,8 +800,8 @@ Examples:
                        help='Maximum word length to process (default: 10)')
     parser.add_argument('--min-word-length', type=int, default=3,
                        help='Minimum source word length (default: 3)')
-    parser.add_argument('--min-typo-length', type=int, default=4,
-                       help='Minimum typo length to include in output (default: 4)')
+    parser.add_argument('--min-typo-length', type=int, default=5,
+                       help='Minimum typo length to include in output (default: 5)')
     parser.add_argument('--typo-freq-threshold', type=float, default=0.0,
                        help='Skip typos with wordfreq frequency above this (0.0 = disabled, try 1e-7)')
 
