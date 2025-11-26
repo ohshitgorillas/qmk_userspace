@@ -18,7 +18,7 @@
 enum { TD_SELW };  // 2 taps: word, 3 taps: line, shift otherwise
 
 // On each release - unregister shift if it was being held
-void td_select_release(tap_dance_state_t *state, void *user_data) {
+void td_selw_select_release(tap_dance_state_t *state, void *user_data) {
     if (state->count == 1) {
         unregister_code(KC_RSFT);
     }
@@ -39,9 +39,45 @@ void sel_word_tap_dance(tap_dance_state_t *state, void *user_data) {
     }
 }
 
+
 tap_dance_action_t tap_dance_actions[] = {
-    [TD_SELW] = ACTION_TAP_DANCE_FN_ADVANCED_WITH_RELEASE(NULL, td_select_release, sel_word_tap_dance, NULL),
+    [TD_SELW] = ACTION_TAP_DANCE_FN_ADVANCED_WITH_RELEASE(NULL, td_selw_select_release, sel_word_tap_dance, NULL),
 };
+
+
+// Timing functions
+bool get_hold_on_other_key_press_per_key(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(2,KC_CAPS):
+        case LT(3,KC_CAPS):
+            return true;
+        default:              // Home Row Mods
+            return false;
+    }
+}
+
+
+
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(2,KC_CAPS):
+        case LT(3,KC_CAPS):
+            return 50;
+        default:              // Home Row Mods
+            return 250;
+    }
+}
+
+
+bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(2,KC_CAPS):
+        case LT(3,KC_CAPS):
+            return true;
+        default:              // Home Row Mods
+            return false;
+    }
+}
 
 
 // keymap
