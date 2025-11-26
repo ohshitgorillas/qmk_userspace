@@ -1,33 +1,50 @@
 # ohshitgorillas' 60% Layout
 
-This README provides a deep dive into my custom 60% layout, covering the hardware, design philosophy, and advanced QMK features that I think make it great.
+This README provides a deep dive into my custom 60% layout, covering the hardware, design philosophy, and advanced QMK features.
 
-It's used for two of my four keyboards:
+It's used for three of my five keyboards:
 - Luminkey LX60
 - KBDfans Tofu60 2.0
+- Alchemy Al.6
 
-Photos are by Discord user SolidBrain.
+LX60 and Tofu photos are by Discord user SolidBrain.
 
 ### Luminkey LX60 Copper Edition
+This is my main keyboard which sees 90% of my use time.
+
 ![Luminkey LX60 Copper Edition](lx60.png)
 
 - **Color**: Anodized green w/ copper accent bar
 - **Keycaps**: CannonKeys British Racing Green
 - **Artisan**: Gary Green Jasper by KeycapQuarry
-- **Switches**: Invokeys Matcha Reserve / SB: Gateron Milky Yellow Pro
-- **Plate**: PP
+- **Switches**: Invokeys Matcha Reserve / SB: Gateron Slate
+- **Plate**: Copper
 - **Mounting**: 45A GraveShift O-ring
 - **Foams**: None
 - **Mods**:
+    - **Stabilizers**: Band-aid mod under stabs    
     - **Feet**: Herbie's Grungebuster pads w/ adhesive
     - Heavily force break modded
 
+### Alchemy Al.6
+This is my backup board that I use when I'm in the mood for tactile switches.
+
+- **Color**: Anodized black
+- **Keycaps**: Geekark Black-on-Black
+- **Switches**: HMX Retro J / SB: HMX Heavy Tactile
+- **Plate**: Alu
+- **Mounting**: 40A GraveShift O-ring
+- **Foams**: None
+
+
 ### Tofu60 2.0
+This used to be my backup tactile board before I got the Alchemy Al.6; now I'm not sure what to do with it.
+
 ![Tofu60 2.0](tofu60-2.png)
 
 - **Color**: E-Coating Black
-- **Keycaps**: Geekark Black-on-Black
-- **Switches**: HMX Retro J / SB: HMX Heavy Tactile
+- **Keycaps**: PBTfans Lyla (black blanks)
+- **Switches**: JWK Popus
 - **Plate**: PC
 - **Mounting**: Silicon socks
 - **Foams**: None
@@ -36,7 +53,7 @@ Photos are by Discord user SolidBrain.
     - Taped up flex cuts on PCB
 
 ## Base Layer
-![Tofu60 2.0 Base Layer](osg60base.png)
+![Base Layer](osg60base.png)
 
 **Legend**: Short dashes "-" indicate OS-specific differences, with macOS on top and Windows on bottom. Longer em-dashes "—" indicate a tap-hold configuration, with the tap function on top and hold on the bottom.
 
@@ -49,7 +66,7 @@ The base layer features:
 - Home Row Modifiers (HRMs)
 
 ## Caps Lock Layer
-![Tofu60 2.0 Caps Lock Layer](osg60caps.png)
+![Caps Lock Layer](osg60caps.png)
 
 The Caps Lock Layer (CLL) is the primary function layer for the board, providing access to:
 - F-keys
@@ -83,7 +100,17 @@ Note that `TD:Shift/SelWd` is a Tap Dance key which uses [Pascal Getreuer's Sele
 - Selects the current line on triple tap.
 - Acts as Shift otherwise.
 
-### The Taming of Caps Lock as a Dual-Use Key
+## HHKB-style Layer
+![HHKB-Style Layer](tofu60-2fn.png)
+
+This layer is a modified version of the traditional HHKB function layer. While the right-hand features and top row remain identical to the original HHKB layout, the left-hand side has been customized:
+- Volume controls have been relocated from ASD (their position in the standard HHKB layout) to XCV for better mnemonics.
+- One-shot modifiers have been placed along the left-hand home row to facilitate easier chording with navigation keys.
+- The 'Leader' key has been assigned to the Tab position.
+
+In practice, this layer sees far less use than the Caps Lock Layer. The CLL above proves far more ergonomic and accessible for most tasks. However, this layer remains valuable for single-handed navigation scenarios, right-handed access to Delete, and provides easier access to lower (left-handed) F-keys compared to using Caps Lock as the modifier.
+
+## The Taming of Caps Lock as a Dual-Use Key
 Using Caps Lock as a fast layer-tap key while preserving its standard tap behavior presents a significant technical challenge:
 - On macOS, the operating system prevents Caps Lock from being toggled with hold times under 200ms.
 - Due to its ideal position on the home row, the CLL's Backspace and Delete functions can be accessed at extreme speeds, often under 50ms, demanding an extremely short tapping term and aggressive tap-hold rules.
@@ -158,16 +185,6 @@ Lastly, we need to disable `CHORDAL_HOLD` for the Caps Lock key, otherwise this 
 ```
 
 That's it! Now your Caps Lock key functions perfectly both on tap and extremely fast holds.
-
-## HHKB-style Layer
-![Tofu60 2.0 HHKB-Style Layer](tofu60-2fn.png)
-
-This layer is a modified version of the traditional HHKB function layer. While the right-hand features and top row remain identical to the original HHKB layout, the left-hand side has been customized:
-- Volume controls have been relocated from ASD (their position in the standard HHKB layout) to XCV for better mnemonics.
-- One-shot modifiers have been placed along the left-hand home row to facilitate easier chording with navigation keys.
-- The 'Leader' key has been assigned to the Tab position.
-
-In practice, this layer sees far less use than the Caps Lock Layer. The CLL above proves far more ergonomic and accessible for most tasks. However, this layer remains valuable for single-handed navigation scenarios, right-handed access to Delete, and provides easier access to lower (left-handed) F-keys compared to using Caps Lock as the modifier.
 
 ## Leader Sequences
 I use the following Leader sequences on my keyboard:
