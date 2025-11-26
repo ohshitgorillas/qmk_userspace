@@ -1,5 +1,5 @@
 # personal stuff - most people won't get much use out of
 uthhe: -> (U-Th)/He
 :acrn: -> Alphachron
-thermocrhon -> thermochron
 
+toin -> tion

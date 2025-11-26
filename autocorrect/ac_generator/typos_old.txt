@@ -15,19 +15,12 @@ analyhsis -> analysis
 :abnd: -> and
 :andn: -> and
 :asnd: -> and
-:andone -> and one
-:andteh -> and the
-:andthe -> and the
 anyopne -> anyone
 aynway -> anyway
 anywya -> anyway
 :paart: -> apart
 :aaprt: -> apart
 :arbound -> around
-:asthe: -> as the
-asiude -> aside
-:atthe -> at the
-:atth:e: -> at the
 bakc -> back
 basleine -> baseline
 bsaeline -> baseline
@@ -47,12 +40,9 @@ bgetter -> better
 btween -> between
 :biut: -> but
 :buit: -> but
-:byt:he: -> by the
-:byth:e: -> by the
-:b:ythe: -> by the
-:bythe: -> by the
 :cna: -> can
 :canm: -> can
+:casn: -> can
 cazn't -> can't
 :capos -> caps
 cuase -> cause
@@ -131,14 +121,14 @@ headhpones -> headphones
 hlep -> help
 :ehr: -> her
 :hihg -> high
+:h:ow: -> how
+:ho:w: -> how
 hwoever -> however
 howveer -> however
 husbnad -> husband
 identiucal -> identical
 :iuf: -> if
 :inm: -> in
-:int:he: -> in the
-:i:nthe -> in the
 iung: -> ing
 inmg: -> ing
 isnane -> insane
@@ -149,9 +139,10 @@ instgance -> instance
 intead -> instead
 isntead -> instead
 isntruct -> instruct
+inspried -> inspired
 inmto -> into
+insdie -> inside
 :inot: -> into
-:itis -> it is
 :itrat: -> iterat
 :jsut: -> just
 keyborad -> keyboard
@@ -195,6 +186,7 @@ moduel -> module
 mroe: -> more
 moer: -> more
 omre: -> more
+:m:ost: -> most
 mcuh -> much
 myuch -> much
 muych -> much
@@ -210,14 +202,11 @@ normla -> normal
 nlty: -> ntly
 :ofg: -> of
 :fo: -> of
-:onit: -> on it
-:ont:hat -> on that
 :oen: -> one
 onme: -> one
 oprder -> order
 :otehr -> other
 ohter -> other
-outt:here -> out there
 aprse -> parse
 perfvect -> perfect
 piong: -> ping
@@ -241,8 +230,8 @@ sekf: -> self
 :ste: -> set
 shfit -> shift
 shuold -> should
+shoould -> should
 simpel -> simple
-:sof:ar -> so far
 someonme -> someone
 soemthing -> something
 sonud -> sound
@@ -302,13 +291,6 @@ thopught -> thought
 toin: -> tion
 tiuon: -> tion
 tiopn: -> tion
-:tobe: -> to be
-:tob:oth -> to both
-:tod:o: -> to do
-:t:odo: -> to do
-tohave -> to have
-:tot:he: -> to the
-tot:his -> to this
 todya -> today
 toigether -> together
 tonght -> tonight
@@ -341,8 +323,6 @@ wign: -> wing
 :iwth -> with
 witgh -> with
 wigth -> with
-witht:he -> with the
-wit:hthe -> with the
 withoupt -> without
 worsd -> words
 :wrok: -> work
@@ -353,3 +333,4 @@ yign: -> ying
 your'e -> you're
 :yopur: -> your
 :yuor: -> your
+:poiunt -> point
