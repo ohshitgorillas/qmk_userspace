@@ -73,11 +73,12 @@ void leader_end_user(void) {
     else if (leader_sequence_four_keys(KC_A, KC_D, KC_D, KC_R)) { SEND_STRING(PERSONAL_ADDRESS); }
 
     // meme features
-    else if (leader_sequence_two_keys(KC_N, KC_S)) { SEND_STRING(NAVY_SEAL);}
-    else if (leader_sequence_two_keys(KC_R, KC_R)) { SEND_STRING(RICKROLL); }
-    else if (leader_sequence_two_keys(KC_R, KC_D)) { SEND_STRING(RIDDICK); }
+    // else if (leader_sequence_two_keys(KC_N, KC_S)) { SEND_STRING(NAVY_SEAL);}
+    // else if (leader_sequence_two_keys(KC_R, KC_R)) { SEND_STRING(RICKROLL); }
+    // else if (leader_sequence_two_keys(KC_R, KC_D)) { SEND_STRING(RIDDICK); }
     else if (leader_sequence_two_keys(KC_S, KC_M)) { toggle_spongemock(); }
-    else if (leader_sequence_three_keys(KC_G, KC_N, KC_U)) { SEND_STRING(LINUX); }
+    // else if (leader_sequence_three_keys(KC_G, KC_N, KC_U)) { SEND_STRING(LINUX); }
+    // else if (leader_sequence_three_keys(KC_A, KC_S, KC_S)) { SEND_STRING(ASSHOLE); }
 
     // Go-to app shortcuts (single key)
     else if (leader_sequence_one_key(KC_Q)) { tap_code16(LCG(KC_F23)); }   // WeChat
@@ -102,43 +103,3 @@ void leader_end_user(void) {
     // autocorrect toggle
     else if (leader_sequence_two_keys(KC_A, KC_C)) { autocorrect_toggle(); }
 }
-
-
-// Timing functions
-bool get_hold_on_other_key_press_per_key(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-        case LT(2, KC_CAPS):  // 60s
-        case LT(3, KC_CAPS):  // 60s
-        case SC_SENT:         // Planck
-            return true;
-        default:              // Home Row Mods
-            return false;
-    }
-}
-
-
-
-uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-        case LT(2, KC_CAPS):  // 60s
-        case LT(3, KC_CAPS):  // 60s
-            return 50;
-        case SC_SENT:         // Planck
-            return 100;
-        default:              // Home Row Mods
-            return 200;
-    }
-}
-
-
-bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-        case LT(2, KC_CAPS):  // 60s
-        case LT(3, KC_CAPS):  // 60s
-        case SC_SENT:         // Planck
-            return true;
-        default:              // Home Row Mods
-            return false;
-    }
-}
-
