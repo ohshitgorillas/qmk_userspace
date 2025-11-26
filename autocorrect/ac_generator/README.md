@@ -8,6 +8,8 @@ It was created to address the lack of available dictionaries which focus exclusi
 
 While created with English in mind, this could easily be adapted to other languages with the appropriate Python libraries.
 
+This project has evolved into the [EntropPy](https://github.com/ohshitgorillas/entroppy) project, an autocorrect dictionary generator for [Espanso](https://espanso.org) and is therefore no longer actively maintained.
+
 ## Features
 
 Generates the following types of typos from the supplied word list:

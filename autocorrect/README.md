@@ -2,6 +2,8 @@
 
 Welcome to my personal autocorrect library for QMK keyboards!
 
+This concept has evolved into the [EntropPy](https://github.com/ohshitgorillas/entroppy) project, an autocorrect dictionary generator for [Espanso](https://espanso.org) and is therefore no longer actively maintained.
+
 ## Philosophy
 
 Most pre-packaged autocorrect solutions focus heavily on misspellings—they're filled with corrections for words that are genuinely misspelled due to lack of knowledge. As someone who spells quite well, however, I rarely need corrections for words like "definitely" or "separate." What I actually need is correction for the mechanical errors that occur during fast typing: transposed letters, doubled characters, missed keystrokes, and other symptoms of fatfingeritis.
