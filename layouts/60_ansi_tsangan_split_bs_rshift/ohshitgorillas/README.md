@@ -18,24 +18,28 @@ This is my main keyboard which sees 90% of my use time.
 - **Keycaps**: CannonKeys British Racing Green
 - **Artisan**: Gary Green Jasper by KeycapQuarry
 - **Switches**: Invokeys Matcha Reserve / SB: Gateron Slate
-- **Plate**: Copper
+- **Plate**: Copper (Geon Venom 60HE)
 - **Mounting**: 45A GraveShift O-ring
 - **Foams**: None
 - **Mods**:
     - **Stabilizers**: Band-aid mod under stabs    
-    - **Feet**: Herbie's Grungebuster pads w/ adhesive
+    - **Feet**: Herbie's Grungebuster dots w/ adhesive
     - Heavily force break modded
 
-### Alchemy Al.6
+### Alchemy CNC Al.6
 This is my backup board that I use when I'm in the mood for tactile switches.
 
+![Alchemy Al.6](al6.jpg)
+
 - **Color**: Anodized black
-- **Keycaps**: Geekark Black-on-Black
+- **Keycaps**: PBTfans White-on-Black
 - **Switches**: HMX Retro J / SB: HMX Heavy Tactile
 - **Plate**: Alu
 - **Mounting**: 40A GraveShift O-ring
 - **Foams**: None
-
+- **Mods**: 
+    - **PCB**: chlx merro60 millmaxed PCB
+    - **Feet**: Herbie's Grungebuster dots w/ adhesive
 
 ### Tofu60 2.0
 This used to be my backup tactile board before I got the Alchemy Al.6; now I'm not sure what to do with it.
@@ -49,7 +53,7 @@ This used to be my backup tactile board before I got the Alchemy Al.6; now I'm n
 - **Mounting**: Silicon socks
 - **Foams**: None
 - **Mods**:
-    - **Feet**: Herbie's Grungebuster pads w/ adhesive
+    - **Feet**: Herbie's Grungebuster dots w/ adhesive
     - Taped up flex cuts on PCB
 
 ## Base Layer
