@@ -47,8 +47,8 @@ This used to be my backup tactile board before I got the Alchemy Al.6; now I'm n
 ![Tofu60 2.0](tofu60-2.png)
 
 - **Color**: E-Coating Black
-- **Keycaps**: PBTfans Lyla (black blanks)
-- **Switches**: JWK Popus
+- **Keycaps**: Geekark Black-on-Black
+- **Switches**: Gateron Milky Yellow Pro
 - **Plate**: PC
 - **Mounting**: Silicon socks
 - **Foams**: None
