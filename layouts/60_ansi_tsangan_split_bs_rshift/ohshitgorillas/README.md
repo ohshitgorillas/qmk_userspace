@@ -2,12 +2,11 @@
 
 This README provides a deep dive into my custom 60% layout, covering the hardware, design philosophy, and advanced QMK features.
 
-It's used for three of my five keyboards:
+It's used for two of my four keyboards:
 - Luminkey LX60
-- KBDfans Tofu60 2.0
 - Alchemy Al.6
 
-LX60 and Tofu photos are by Discord user SolidBrain.
+LX60 photo by Discord user SolidBrain.
 
 ### Luminkey LX60 Copper Edition
 This is my main keyboard which sees 90% of my use time.
@@ -32,29 +31,14 @@ This is my backup board that I use when I'm in the mood for tactile switches.
 ![Alchemy Al.6](al6.jpg)
 
 - **Color**: Anodized black
-- **Keycaps**: PBTfans White-on-Black
-- **Switches**: HMX Retro J / SB: HMX Heavy Tactile
-- **Plate**: Alu
-- **Mounting**: 40A GraveShift O-ring
+- **Keycaps**: Drop MT3 White-on-Black
+- **Switches**: HMX Retro J
+- **Plate**: FR4
+- **Mounting**: 30A GraveShift O-ring
 - **Foams**: None
 - **Mods**: 
-    - **PCB**: chlx merro60 millmaxed PCB
+    - **PCB**: CannonKeys Bastion60 PCB
     - **Feet**: Herbie's Grungebuster dots w/ adhesive
-
-### Tofu60 2.0
-This used to be my backup tactile board before I got the Alchemy Al.6; now I'm not sure what to do with it.
-
-![Tofu60 2.0](tofu60-2.png)
-
-- **Color**: E-Coating Black
-- **Keycaps**: Geekark Black-on-Black
-- **Switches**: Gateron Milky Yellow Pro
-- **Plate**: PC
-- **Mounting**: Silicon socks
-- **Foams**: None
-- **Mods**:
-    - **Feet**: Herbie's Grungebuster dots w/ adhesive
-    - Taped up flex cuts on PCB
 
 ## Base Layer
 ![Base Layer](osg60base.png)
