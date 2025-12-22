@@ -8,6 +8,9 @@ It's used for two of my four keyboards:
 
 LX60 photo by Discord user SolidBrain.
 
+## Keyboards
+The below layout applies to the following keyboards:
+
 ### Luminkey LX60 Copper Edition
 This is my main keyboard which sees 90% of my use time.
 
@@ -38,6 +41,10 @@ This is my backup board that I use when I'm in the mood for tactile switches.
 - **Mods**: 
     - **PCB**: CannonKeys Bastion60 hotswap PCB
     - **Feet**: Herbie's Grungebuster dots w/ adhesive
+
+### Upgrade Plans
+I plan on buying a Neo60 Cu next in purple with CannonKeys CXA Sugarplum keycaps.
+
 
 ## Base Layer
 ![Base Layer](osg60base.png)
