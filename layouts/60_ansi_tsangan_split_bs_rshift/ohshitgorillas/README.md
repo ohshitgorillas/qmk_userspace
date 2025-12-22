@@ -20,8 +20,7 @@ This is my main keyboard which sees 90% of my use time.
 - **Plate**: Copper (Geon Venom 60HE)
 - **Mounting**: 45A GraveShift O-ring
 - **Foams**: None
-- **Mods**:
-    - **Stabilizers**: Band-aid mod under stabs    
+- **Mods**: 
     - **Feet**: Herbie's Grungebuster dots w/ adhesive
     - Heavily force break modded
 
@@ -30,14 +29,14 @@ This is my backup board that I use when I'm in the mood for tactile switches.
 
 ![Alchemy Al.6](al6.jpg)
 
-- **Color**: Anodized black
-- **Keycaps**: Drop MT3 White-on-Black
-- **Switches**: HMX Retro J
-- **Plate**: FR4
-- **Mounting**: 30A GraveShift O-ring
+- **Color**: Anodized black, battle-hardened weight
+- **Keycaps**: PBTfans White-on-Black
+- **Switches**: BSUN Ocean / SB: BSUN Hutt
+- **Plate**: Carbon fiber
+- **Mounting**: 40A GraveShift O-ring
 - **Foams**: None
 - **Mods**: 
-    - **PCB**: CannonKeys Bastion60 PCB
+    - **PCB**: CannonKeys Bastion60 hotswap PCB
     - **Feet**: Herbie's Grungebuster dots w/ adhesive
 
 ## Base Layer
