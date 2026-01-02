@@ -62,7 +62,7 @@ void leader_end_user(void) {
         }
     }
 
-    // Personal info macros
+    // personal info macros
     else if (leader_sequence_two_keys(KC_M, KC_E)) { SEND_STRING("ohshitgorillas"); }
     else if (leader_sequence_two_keys(KC_I, KC_P)) { SEND_STRING(IP_SUBNET); }
     else if (leader_sequence_three_keys(KC_P, KC_E, KC_M)) { SEND_STRING(PERSONAL_EMAIL); }
@@ -73,14 +73,9 @@ void leader_end_user(void) {
     else if (leader_sequence_four_keys(KC_A, KC_D, KC_D, KC_R)) { SEND_STRING(PERSONAL_ADDRESS); }
 
     // meme features
-    // else if (leader_sequence_two_keys(KC_N, KC_S)) { SEND_STRING(NAVY_SEAL);}
-    // else if (leader_sequence_two_keys(KC_R, KC_R)) { SEND_STRING(RICKROLL); }
-    // else if (leader_sequence_two_keys(KC_R, KC_D)) { SEND_STRING(RIDDICK); }
     else if (leader_sequence_two_keys(KC_S, KC_M)) { toggle_spongemock(); }
-    // else if (leader_sequence_three_keys(KC_G, KC_N, KC_U)) { SEND_STRING(LINUX); }
-    // else if (leader_sequence_three_keys(KC_A, KC_S, KC_S)) { SEND_STRING(ASSHOLE); }
 
-    // Go-to app shortcuts (single key)
+    // go-to app shortcuts (single key)
     else if (leader_sequence_one_key(KC_Q)) { tap_code16(LCG(KC_F23)); }   // WeChat
     else if (leader_sequence_one_key(KC_W)) { tap_code16(LALT(KC_F23)); }  // WhatsApp
     else if (leader_sequence_one_key(KC_T)) { tap_code16(LSFT(KC_F23)); }  // Teams
