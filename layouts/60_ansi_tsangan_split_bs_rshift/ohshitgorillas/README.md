@@ -19,31 +19,51 @@ This is my main keyboard which sees 90% of my use time.
 - **Color**: Anodized green w/ copper accent bar
 - **Keycaps**: CannonKeys British Racing Green
 - **Artisan**: Gary Green Jasper by KeycapQuarry
-- **Switches**: Invokeys Matcha Reserve / SB: Gateron Slate
+- **Switches**: Invokeys Matcha Reserve
+- **Spacebar Switch**: Gateron Slate w/ Matcha Reserve spring
 - **Plate**: Copper (Geon Venom 60HE)
 - **Mounting**: 45A GraveShift O-ring
+- **Stabilizers**: WS OA Mint Green (Enter, left Shift) and Typeplus x YiKB (spacebar)
 - **Foams**: None
 - **Mods**: 
     - **Feet**: Herbie's Grungebuster dots w/ adhesive
     - Heavily force break modded
 
 ### Alchemy CNC Al.6
-This is my backup board that I use when I'm in the mood for tactile switches.
+This is my backup board.
 
 ![Alchemy Al.6](al6.jpg)
 
 - **Color**: Anodized black, battle-hardened weight
-- **Keycaps**: PBTfans White-on-Black
-- **Switches**: BSUN Ocean / SB: BSUN Hutt
-- **Plate**: Carbon fiber
-- **Mounting**: 40A GraveShift O-ring
 - **Foams**: None
 - **Mods**: 
-    - **PCB**: CannonKeys Bastion60 hotswap PCB
     - **Feet**: Herbie's Grungebuster dots w/ adhesive
 
+The Al.6 has two configurations:
+
+**Al.6 Configuration 1: Tactile**
+- **Keycaps**: Drop MT3 White-on-Black
+- **Switches**: Invokeys Hojicha Reserve
+- **Spacebar Switch**: BSUN Hutt w/ Hojicha Reserve spring
+- **Plate**: FR4
+- **Mounting**: 65A GraveShift O-ring
+- **Stabilizers**: WS Stupid clip-ins
+- **PCB**: Bastion60 solder
+
+**Al.6 Configuration 2: Tactile 2**
+- **Keycaps**: PBTfans White-on-Black
+- **Switches**: HMX Retro J
+- **Plate**: Brass
+- **Mounting**: 60A GraveShift O-ring
+- **Stabilizers**: TX AP clip-ins
+- **PCB**: Bastion60 hotswap
+
 ### Upgrade Plans
-I plan on buying a Neo60 Cu next in purple with CannonKeys CXA Sugarplum keycaps.
+I am awaiting the delivery of a Neo60 Cu that will serve as my primary tactile board using BSUN Ocean switches on a carbon fiber plate and CannonKeys CXA Sugarplum keycaps.
+
+I am also waiting on MX Black Hyperglides (hand lubed and filmed) and a custom alu plate to make a "meme"/reference/COVID-era meta configuration for the Al.6 using the h60 solder PCB.
+
+I also have plans to upgrade the LX60 to a Bastion60 solder PCB, although this requires some custom work to fit a new daugtherboard.
 
 
 ## Base Layer
