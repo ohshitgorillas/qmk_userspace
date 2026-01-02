@@ -109,7 +109,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX,  KC_NUBS, KC_LCTL, TD(TD_SELW), KC_ENT,  XXXXXXX, KC_PGUP, KC_HOME, KC_UP,     KC_END,    KC_PSCR,   XXXXXXX,   XXXXXXX, _______,
         XXXXXXX,  KC_LOPT, KC_LCMD, KC_BSPC,     KC_DEL,  XXXXXXX, KC_PGDN, KC_LEFT, KC_DOWN,   KC_RIGHT,  KC_UNDS,   KC_PLUS,            _______,
         _______,  QK_LEAD, KC_MUTE, KC_VOLD,     KC_VOLU, XXXXXXX, XXXXXXX, XXXXXXX, LSG(KC_3), LSG(KC_4), LSG(KC_5),            _______, XXXXXXX,
-        _______,  _______, _______,                                     _______,                                  _______,   _______, _______
+        _______,  _______, _______,                                         _______,                                  _______,   _______, _______
     ),
 
      [3] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
@@ -118,7 +118,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX,  KC_NUBS, KC_LWIN, TD(TD_SELW), KC_ENT,  XXXXXXX, KC_PGUP, KC_HOME, KC_UP,   KC_END,    KC_PSCR,   XXXXXXX,   XXXXXXX, _______,
         XXXXXXX,  KC_LCTL, KC_LALT, KC_BSPC,     KC_DEL,  XXXXXXX, KC_PGDN, KC_LEFT, KC_DOWN, KC_RIGHT,  KC_UNDS,   KC_PLUS,            _______,
         _______,  QK_LEAD, KC_MUTE, KC_VOLD,     KC_VOLU, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   XXXXXXX,              _______, XXXXXXX,
-        _______,  _______, _______,                                     _______,                                _______,   _______, _______
+        _______,  _______, _______,                                         _______,                                _______,   _______, _______
     ),
 
     [4] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
