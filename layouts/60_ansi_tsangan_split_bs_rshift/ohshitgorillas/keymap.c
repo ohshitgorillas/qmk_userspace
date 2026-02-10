@@ -102,9 +102,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [2] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
         // macOS caps layer
-        // notes:
-        //     - KC_NUBS goes to Compose
-        //     - LSG(3,4,5) allows screenshotting under macOS
         XXXXXXX,  KC_F1,   KC_F2,   KC_F3,       KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,     KC_F9,     KC_F10,    KC_F11,    KC_F12,  _______, _______,
         XXXXXXX,  KC_NUBS, KC_LCTL, TD(TD_SELW), KC_ENT,  XXXXXXX, KC_PGUP, KC_HOME, KC_UP,     KC_END,    KC_PSCR,   XXXXXXX,   XXXXXXX, _______,
         XXXXXXX,  KC_LOPT, KC_LCMD, KC_BSPC,     KC_DEL,  XXXXXXX, KC_PGDN, KC_LEFT, KC_DOWN,   KC_RIGHT,  KC_UNDS,   KC_PLUS,            _______,
@@ -123,10 +120,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [4] = LAYOUT_60_ansi_tsangan_split_bs_rshift(
         // universal navigation layer (HHKB style w/ slight modifications)
-        XXXXXXX,   KC_F1,  KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,    KC_F10,    KC_F11,    KC_F12,  KC_INS,  KC_DEL,
-        QK_LEAD,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PSCR, KC_SCRL,  KC_PAUS,   KC_UP,     XXXXXXX, _______,
-        XXXXXXX,  OS_LCTL, OS_LALT, OS_LGUI, OS_LSFT, XXXXXXX, KC_ASTR, KC_SLSH, KC_HOME, KC_PGUP,  KC_LEFT,   KC_RIGHT,           _______,
-        _______,  XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU, XXXXXXX, KC_PLUS, KC_MINS, KC_END,  KC_PGDN,  KC_DOWN,              _______, XXXXXXX,
-        _______,  _______, _______,                                     _______,                               _______,   _______, _______
+        XXXXXXX,   KC_F1,  KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,    KC_F10,    KC_F11,        KC_F12,      KC_INS,        KC_DEL,
+        QK_LEAD,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_PSCR, KC_SCRL,  KC_PAUS,   KC_UP,         XXXXXXX,     _______,
+        XXXXXXX,  OS_LCTL, OS_LALT, OS_LGUI, OS_LSFT, XXXXXXX, KC_ASTR, KC_SLSH, KC_HOME, KC_PGUP,  KC_LEFT,   KC_RIGHT,                   _______,
+        _______,  XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU, XXXXXXX, KC_PLUS, KC_MINS, KC_END,  KC_PGDN,  KC_DOWN,                  _______,     XXXXXXX,
+        _______,  _______, _______,                                     _______,                               LCTL(KC_LEFT), LCTL(KC_UP), LCTL(KC_RIGHT)
     ),
 };
