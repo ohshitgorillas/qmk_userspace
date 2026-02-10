@@ -24,10 +24,39 @@ This is my main keyboard which sees 90% of my use time.
 - **Plate**: Copper (Geon Venom 60HE)
 - **Mounting**: 45A GraveShift O-ring
 - **Stabilizers**: WS OA Mint Green (Enter, left Shift) and Typeplus x YiKB (spacebar)
+- **PCB**: wired hotswap
 - **Foams**: None
 - **Mods**: 
     - **Feet**: Herbie's Grungebuster dots w/ adhesive
     - Heavily force break modded
+
+### Qwertykeys Neo60 Cu
+This is my primary tactile board.
+
+- **Color**: Purple (aluminum anodized)
+- **Keycaps**: Custom one-of-a-kind "Mineralogy" set from Yuzu, dye-sub PBT
+- **Artisan**: Charoite from KeycapQuarry
+- **Switches**: BSUN Hutt
+- **Spacebar Switch**: Wuque Studio Heavy Tactile
+- **Plate**: Alu
+- **Mounting**: Gasket
+- **Stabilizers**: TypePlus x YiKB
+- **PCB**: wired solder
+- **Foams**: None
+
+### Bowl Keyboards Vella60 Performance Edition
+This is my backup tactile board.
+
+- **Color**: Black aluminum anodized w/ black carbon fiber accents
+- **Keycaps**: PBTfans Lyla (blanks)
+- **Switches**: BSUN Ocean
+- **Spacebar Switch**: BSUN Hutt
+- **Plate**: Carbon fiber
+- **Mounting**: 40A GraveShift O-ring
+- **Stabilizers**: Durock v3
+- **PCB**: wired solder Zed60
+- **Foams**: None
+- **Mods**: Feet replaced w/ Herbie's Grungebuster dots w/ adhesive
 
 ### Alchemy CNC Al.6
 This is my backup board.
@@ -52,18 +81,11 @@ The Al.6 has two configurations:
 
 **Al.6 Configuration 2: Tactile 2**
 - **Keycaps**: PBTfans White-on-Black
-- **Switches**: HMX Retro J
-- **Plate**: Brass
+- **Switches**: Gateron x Sillyworks SLAY Type S
+- **Plate**: Alu
 - **Mounting**: 60A GraveShift O-ring
 - **Stabilizers**: TX AP clip-ins
 - **PCB**: Bastion60 hotswap
-
-### Upgrade Plans
-I am awaiting the delivery of a Neo60 Cu that will serve as my primary tactile board using BSUN Ocean switches on a carbon fiber plate and CannonKeys CXA Sugarplum keycaps.
-
-I am also waiting on MX Black Hyperglides (hand lubed and filmed) and a custom alu plate to make a "meme"/reference/COVID-era meta configuration for the Al.6 using the h60 solder PCB.
-
-I also have plans to upgrade the LX60 to a Bastion60 solder PCB, although this requires some custom work to fit a new daugtherboard.
 
 
 ## Base Layer
