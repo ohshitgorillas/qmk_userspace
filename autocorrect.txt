@@ -177,7 +177,6 @@ cisl: -> cial
 :cirre -> curre
 :drc -> dec
 :dwc -> dec
-def: -> ded
 dwd: -> ded
 dwnt: -> dent
 drnt: -> dent
@@ -209,7 +208,6 @@ db't: -> dn't
 dm't: -> dn't
 nd't: -> dn't
 es': -> e's
-e'd: -> e's
 'es: -> e's
 e'a: -> e's
 evt: -> ect
@@ -786,7 +784,6 @@ sm't: -> sn't
 :stuse -> stude
 :yss -> sys
 :sydt -> syst
-t'd: -> t's
 t'a: -> t's
 'ts: -> t's
 :tsk -> tak
