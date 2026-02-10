@@ -3,6 +3,8 @@
     "build_targets": [
         ["planck/rev7", "ohshitgorillas"],
         ["dztech/tofu60", "ohshitgorillas"],
-        ["luminkey/lx60", "ohshitgorillas"]
+        ["luminkey/lx60", "ohshitgorillas"],
+        ["mechlovin/zed60", "ohshitgorillas"],
+        ["neo/neo60", "ohshitgorillas"]
     ]
 }
