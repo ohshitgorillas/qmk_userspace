@@ -577,7 +577,6 @@ nt': -> n't
 n'y: -> n't
 nsl: -> nal
 ncw: -> nce
-dns: -> nds
 nwd: -> ned
 nrd: -> ned
 ngw: -> nge
