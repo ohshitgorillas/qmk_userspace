@@ -33,6 +33,8 @@ This is my main keyboard which sees 90% of my use time.
 ### Qwertykeys Neo60 Cu
 This is my primary tactile board.
 
+![Qwertykeys Neo60 Cu](neo60cu.png)
+
 - **Color**: Purple (aluminum anodized)
 - **Keycaps**: Custom one-of-a-kind "Mineralogy" set from Yuzu, dye-sub PBT
 - **Artisan**: Charoite from KeycapQuarry
